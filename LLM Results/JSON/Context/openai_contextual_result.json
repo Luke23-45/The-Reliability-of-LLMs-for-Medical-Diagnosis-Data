@@ -1,0 +1,47 @@
+[
+  {
+    "patient_id": "001_3_1",
+    "before_final_diagnosis": "Myocardial Infarction (STEMI)",
+    "after_final_diagnosis": "Acute Myocardial Infarction"
+  },
+  {
+    "patient_id": "001_3_2",
+    "before_final_diagnosis": "Angina Pectoris",
+    "after_final_diagnosis": "Unstable Angina"
+  },
+  {
+    "patient_id": "001_3_3",
+    "before_final_diagnosis": "Atypical Myocardial Infarction (NSTEMI)",
+    "after_final_diagnosis": "Gastroesophageal reflux disease (GERD)"
+  },
+  {
+    "patient_id": "001_3_4",
+    "before_final_diagnosis": "Unstable Angina",
+    "after_final_diagnosis": "Stable Angina"
+  },
+  {
+    "patient_id": "024_1",
+    "before_final_diagnosis": "Peptic Ulcer Disease (Gastric Ulcer)",
+    "after_final_diagnosis": "Gastric ulcer with gastrointestinal bleeding"
+  },
+  {
+    "patient_id": "024_2",
+    "before_final_diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+    "after_final_diagnosis": "Gastroesophageal reflux disease (GERD)"
+  },
+  {
+    "patient_id": "024_3",
+    "before_final_diagnosis": "Further investigation needed",
+    "after_final_diagnosis": "Suspected gastric malignancy"
+  },
+  {
+    "patient_id": "024_4",
+    "before_final_diagnosis": "Acute Bronchitis",
+    "after_final_diagnosis": "Asthma exacerbation"
+  },
+  {
+    "patient_id": "024_5",
+    "before_final_diagnosis": "Hypertension",
+    "after_final_diagnosis": "Hypertensive crisis (without acute target organ damage)"
+  }
+]

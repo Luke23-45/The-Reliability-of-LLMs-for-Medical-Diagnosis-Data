@@ -1,0 +1,19 @@
+llm,patient_id,original_diagnosis,context_diagnosis,diagnosis_changed
+Gemini,001_3_1,Myocardial Infarction (STEMI),Acute myocardial infarction (STEMI),No
+Gemini,001_3_2,Angina Pectoris,Unstable angina,Yes
+Gemini,001_3_3,Atypical Myocardial Infarction (NSTEMI),Musculoskeletal back pain,Yes
+Gemini,001_3_4,Unstable Angina,Angina pectoris (likely unstable),No
+Gemini,024_1,Peptic Ulcer Disease (Gastric Ulcer),Gastric Ulcer,No
+Gemini,024_2,Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),No
+Gemini,024_3,Further investigation needed,Possible Malignancy,Yes
+Gemini,024_4,Acute Bronchitis,Acute Exacerbation of Asthma,Yes
+Gemini,024_5,Hypertension,Hypertensive Headache,Yes
+ChatGPT,001_3_1,Myocardial Infarction (STEMI),Acute Myocardial Infarction,No
+ChatGPT,001_3_2,Angina Pectoris,Unstable Angina,Yes
+ChatGPT,001_3_3,Atypical Myocardial Infarction (NSTEMI),Gastroesophageal reflux disease (GERD),Yes
+ChatGPT,001_3_4,Unstable Angina,Stable Angina,Yes
+ChatGPT,024_1,Peptic Ulcer Disease (Gastric Ulcer),Gastric ulcer with gastrointestinal bleeding,Yes
+ChatGPT,024_2,Gastroesophageal Reflux Disease (GERD),Gastroesophageal reflux disease (GERD),No
+ChatGPT,024_3,Further investigation needed,Suspected gastric malignancy,Yes
+ChatGPT,024_4,Acute Bronchitis,Asthma exacerbation,Yes
+ChatGPT,024_5,Hypertension,Hypertensive crisis (without acute target organ damage),Yes

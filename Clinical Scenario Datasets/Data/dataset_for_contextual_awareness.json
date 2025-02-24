@@ -1,0 +1,512 @@
+[
+  {
+    "patient_id": "001_3_1",
+    "age": 65,
+    "gender": "Male",
+    "country": "UK",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Hypertension",
+      "Diabetes",
+      "Prior MI"
+    ],
+    "current_medications": [
+      "Aspirin",
+      "Lisinopril",
+      "Metformin"
+    ],
+    "presenting_complaint": "Pressure in chest",
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "moderate",
+        "duration": "30 minutes",
+        "location": "retrosternal",
+        "character": "crushing",
+        "associated_symptoms": [
+          "radiating to left arm",
+          "diaphoresis"
+        ]
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent",
+        "exacerbating_factors": "exertion",
+        "relieving_factors": "rest"
+      },
+      {
+        "name": "Nausea",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Diaphoresis",
+        "severity": "mild",
+        "duration": "intermittent",
+        "type": "cold sweat"
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 100,
+      "blood_pressure": "150/90",
+      "temperature": 98.6,
+      "respiratory_rate": 20
+    },
+    "physical_exam": "Anxious patient.  Heart and lungs normal.",
+    "test_results": {
+      "ecg": "ST elevation in leads II, III, aVF",
+      "troponin": 0.8,
+      "cbc": "Elevated white blood cell count"
+    },
+    "differential_diagnosis": [
+      "Myocardial Infarction",
+      "Angina Pectoris",
+      "Pericarditis",
+      "Pulmonary Embolism"
+    ],
+    "final_diagnosis": "Myocardial Infarction (STEMI)",
+    "treatment": "Aspirin, Clopidogrel, Thrombolytic therapy",
+    "notes": "Patient responded to tPA.  CCU admission planned."
+  },
+  {
+    "patient_id": "001_3_2",
+    "age": 65,
+    "gender": "Male",
+    "country": "UK",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Hypertension",
+      "Diabetes",
+      "Prior MI"
+    ],
+    "current_medications": [
+      "Aspirin",
+      "Lisinopril",
+      "Metformin"
+    ],
+    "presenting_complaint": "Pressure in chest",
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "moderate",
+        "duration": "15 minutes",
+        "location": "retrosternal",
+        "character": "pressure-like",
+        "associated_symptoms": [
+          "radiating to jaw",
+          "mild diaphoresis"
+        ],
+        "relieving_factors": "rest"
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent",
+        "exacerbating_factors": "exertion",
+        "relieving_factors": "rest"
+      },
+      {
+        "name": "Nausea",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Diaphoresis",
+        "severity": "mild",
+        "duration": "intermittent",
+        "type": "clammy"
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 88,
+      "blood_pressure": "140/85",
+      "temperature": 98.6,
+      "respiratory_rate": 18
+    },
+    "physical_exam": "Anxious patient. Heart and lungs normal.",
+    "test_results": {
+      "ecg": "ST depression in leads V4-V6",
+      "troponin": 0.1,
+      "cbc": "Normal white blood cell count"
+    },
+    "differential_diagnosis": [
+      "Angina Pectoris",
+      "Myocardial Infarction",
+      "Esophageal spasm"
+    ],
+    "final_diagnosis": "Angina Pectoris",
+    "treatment": "Nitroglycerin, Beta-blockers, Lifestyle modification advice",
+    "notes": "Patient's chest pain relieved with nitroglycerin. Cardiology referral for stress test planned."
+  },
+  {
+    "patient_id": "001_3_3",
+    "age": 55,
+    "gender": "Female",
+    "country": "UK",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Hypertension",
+      "Pre-diabetes"
+    ],
+    "current_medications": [
+      "Lisinopril",
+      "Metformin"
+    ],
+    "presenting_complaint": "Upper back discomfort",
+    "symptoms": [
+      {
+        "name": "Upper back discomfort",
+        "severity": "mild to moderate",
+        "duration": "several hours",
+        "location": "between shoulder blades",
+        "character": "aching",
+        "associated_symptoms": [
+          "nausea",
+          "fatigue"
+        ]
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent",
+        "exacerbating_factors": "lying flat",
+        "relieving_factors": "sitting up"
+      },
+      {
+        "name": "Nausea",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Fatigue",
+        "severity": "moderate",
+        "duration": "constant"
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 92,
+      "blood_pressure": "135/88",
+      "temperature": 98.4,
+      "respiratory_rate": 16
+    },
+    "physical_exam": "Patient appears tired but not acutely distressed. Heart and lungs normal.",
+    "test_results": {
+      "ecg": "Normal sinus rhythm",
+      "troponin": 0.2,
+      "cbc": "Normal white blood cell count",
+      "chest_xray": "Normal"
+    },
+    "differential_diagnosis": [
+      "Musculoskeletal pain",
+      "Gastroesophageal reflux",
+      "Angina Pectoris",
+      "Atypical Myocardial Infarction"
+    ],
+    "final_diagnosis": "Atypical Myocardial Infarction (NSTEMI)",
+    "treatment": "Aspirin, Nitrates, Monitoring",
+    "notes": "Given persistent symptoms and risk factors, further cardiac workup is planned despite initial normal ECG."
+  },
+  {
+    "patient_id": "001_3_4",
+    "age": 60,
+    "gender": "Male",
+    "country": "UK",
+    "race": "South Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "lifestyle_factors": {
+      "smoking_status": "Current smoker (20 pack-years)",
+      "diet": "High fat, low fiber",
+      "activity_level": "Sedentary",
+      "stress_level": "High stress job"
+    },
+    "medical_history": [
+      "Hypertension",
+      "Family history of early heart disease"
+    ],
+    "current_medications": [
+      "Amlodipine"
+    ],
+    "presenting_complaint": "Uncomfortable feeling in chest",
+    "symptoms": [
+      {
+        "name": "Chest discomfort",
+        "severity": "mild, gradually worsening",
+        "duration": "over the past week",
+        "location": "central chest",
+        "character": "tightness",
+        "aggravating_factors": "walking uphill",
+        "relieving_factors": "rest, antacids (partially)"
+      },
+      {
+        "name": "Mild shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent, with chest discomfort"
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 84,
+      "blood_pressure": "145/92",
+      "temperature": 98.5,
+      "respiratory_rate": 17
+    },
+    "physical_exam": "Slightly overweight, anxious. Heart and lungs normal.",
+    "test_results": {
+      "ecg": "T wave inversions in anterior leads",
+      "troponin": 0.08,
+      "lipid_panel": "Elevated LDL cholesterol",
+      "glucose": "Borderline high"
+    },
+    "differential_diagnosis": [
+      "Stable Angina",
+      "Unstable Angina",
+      "GERD",
+      "Costochondritis"
+    ],
+    "final_diagnosis": "Unstable Angina",
+    "treatment": "Aspirin, Nitrates, Statins, Lifestyle counseling, Cardiology referral",
+    "notes": "Patient initially attributed symptoms to indigestion. Lifestyle factors and symptom progression increase concern for cardiac ischemia."
+  },
+  {
+    "patient_id": "024_1",
+    "age": 58,
+    "gender": "Female",
+    "country": "USA",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Osteoarthritis"
+    ],
+    "current_medications": [
+      "Naproxen"
+    ],
+    "presenting_complaint": "Upper abdominal pain and nausea",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "severe",
+        "duration": "intermittent",
+        "location": "epigastric",
+        "character": "gnawing",
+        "aggravating_factors": "eating",
+        "relieving_factors": "antacids"
+      },
+      {
+        "name": "Nausea",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "associated_symptoms": "vomiting"
+      },
+      {
+        "name": "Bloating",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Epigastric tenderness noted. Stool guaiac positive.",
+    "test_results": {
+      "h_pylori_test": "Negative",
+      "endoscopy": "Gastric ulcer"
+    },
+    "differential_diagnosis": [
+      "PUD",
+      "Gastric Cancer"
+    ],
+    "final_diagnosis": "Peptic Ulcer Disease (Gastric Ulcer)",
+    "treatment": "PPI, Misoprostol",
+    "notes": "Patient advised to discontinue Naproxen. Follow-up endoscopy planned."
+  },
+  {
+    "patient_id": "024_2",
+    "age": 35,
+    "gender": "Male",
+    "country": "USA",
+    "race": "Black",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "GERD",
+      "Anxiety"
+    ],
+    "current_medications": [
+      "Omeprazole",
+      "Sertraline"
+    ],
+    "presenting_complaint": "Chest pain and heartburn",
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "mild",
+        "duration": "constant",
+        "location": "substernal",
+        "character": "burning",
+        "aggravating_factors": "lying down",
+        "relieving_factors": "antacids"
+      },
+      {
+        "name": "Heartburn",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "associated_symptoms": "regurgitation"
+      }
+    ],
+    "physical_exam": "Normal cardiac exam. No abdominal tenderness.",
+    "test_results": {
+      "h_pylori_test": "Negative",
+      "ecg": "Normal"
+    },
+    "differential_diagnosis": [
+      "GERD",
+      "Angina"
+    ],
+    "final_diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+    "treatment": "PPI, Lifestyle modifications",
+    "notes": "Patient advised to elevate head of bed.  Discussed stress management techniques."
+  },
+  {
+    "patient_id": "024_3",
+    "age": 70,
+    "gender": "Female",
+    "country": "USA",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Hypertension",
+      "Diabetes"
+    ],
+    "current_medications": [
+      "Lisinopril",
+      "Metformin"
+    ],
+    "presenting_complaint": "Fatigue and weight loss",
+    "symptoms": [
+      {
+        "name": "Fatigue",
+        "severity": "severe",
+        "duration": "constant"
+      },
+      {
+        "name": "Weight loss",
+        "severity": "significant",
+        "duration": "over 3 months"
+      },
+      {
+        "name": "Abdominal pain",
+        "severity": "mild",
+        "duration": "intermittent",
+        "location": "diffuse"
+      }
+    ],
+    "physical_exam": "Cachectic appearance. Abdominal mass palpated.",
+    "test_results": {
+      "cbc": "Anemia",
+      "ct_abdomen": "Possible malignancy"
+    },
+    "differential_diagnosis": [
+      "Cancer",
+      "Chronic infection"
+    ],
+    "final_diagnosis": "Further investigation needed",
+    "treatment": "Supportive care",
+    "notes": "Referral to oncology.  Nutritional assessment."
+  },
+  {
+    "patient_id": "024_4",
+    "age": 28,
+    "gender": "Male",
+    "country": "Nepal",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Asthma"
+    ],
+    "current_medications": [
+      "Albuterol inhaler"
+    ],
+    "presenting_complaint": "Cough and shortness of breath",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "1 week",
+        "character": "productive",
+        "associated_symptoms": "yellow sputum"
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "1 week",
+        "aggravating_factors": "exertion"
+      },
+      {
+        "name": "Wheezing",
+        "severity": "intermittent",
+        "duration": "1 week"
+      }
+    ],
+    "physical_exam": "Wheezes on auscultation.  No fever.",
+    "test_results": {
+      "chest_xray": "No infiltrates"
+    },
+    "differential_diagnosis": [
+      "Asthma exacerbation",
+      "Bronchitis"
+    ],
+    "final_diagnosis": "Acute Bronchitis",
+    "treatment": "Antibiotics, continue Albuterol as needed",
+    "notes": "Patient advised on smoking cessation."
+  },
+  {
+    "patient_id": "024_5",
+    "age": 65,
+    "gender": "Female",
+    "country": "USA",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "medical_history": [
+      "Hypertension",
+      "Hyperlipidemia",
+      "Osteoporosis"
+    ],
+    "current_medications": [
+      "Amlodipine",
+      "Atorvastatin",
+      "Alendronate"
+    ],
+    "presenting_complaint": "Dizziness and headache",
+    "symptoms": [
+      {
+        "name": "Dizziness",
+        "severity": "mild",
+        "duration": "intermittent",
+        "character": "vertigo"
+      },
+      {
+        "name": "Headache",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "location": "occipital"
+      },
+      {
+        "name": "Blurred vision",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Elevated blood pressure (160/95).  Neurological exam unremarkable.",
+    "test_results": {
+      "cbc": "Normal",
+      "cmp": "Normal"
+    },
+    "differential_diagnosis": [
+      "Hypertensive crisis",
+      "Migraine",
+      "Cervical spondylosis"
+    ],
+    "final_diagnosis": "Hypertension",
+    "treatment": "Increase Amlodipine dose",
+    "notes": "Patient advised on lifestyle modifications (diet, exercise).  Follow-up in 1 week to reassess blood pressure."
+  }
+]

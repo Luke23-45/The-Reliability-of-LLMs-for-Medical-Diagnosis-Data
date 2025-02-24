@@ -1,0 +1,936 @@
+[
+  {
+    "patient_id": "001_3",
+    "age": 72,
+    "gender": "Male",
+    "country": "Canada",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "medical_history": [
+      "Type 2 Diabetes Mellitus",
+      "Benign Prostatic Hyperplasia (BPH)",
+      "Osteoarthritis",
+      "GERD (Gastroesophageal Reflux Disease)",
+      "Seasonal Allergies",
+      "Claimed to have 'magnetic personality' according to aura reader in 1998 - patient still mentions it 'boosts his confidence'",
+      "Believes 'Canadian winters build character, and strong immune systems'",
+      "Childhood dream was to be a 'Mountie' but 'bad knees' intervened"
+    ],
+    "current_medications": [
+      "Metformin",
+      "Tamsulosin",
+      "Ibuprofen (PRN)",
+      "Omeprazole",
+      "Cetirizine",
+      "Occasionally uses wife's lavender essential oil for 'calming vibes' - patient admits 'mostly wife uses it, but he 'borrows' it sometimes'",
+      "Takes 'glucosamine and chondroitin' for 'joints, just in case' - 'heard it on the radio, must be legit'"
+    ],
+    "presenting_complaint": "Uncomfortable sensation in chest and back, especially during hockey game - patient says 'it's like my chest is 'refereeing' a fight between my lungs and my heart'",
+    "symptoms": [
+      {
+        "name": "Chest discomfort",
+        "severity": "mild to moderate (patient rates it 'a solid 5 out of 10, like missing the game-winning goal')",
+        "duration": "2 hours (patient timed it with his 'vintage hockey stopwatch')",
+        "location": "central chest, radiating to back (patient gestures vaguely with both hands, then precisely points 'where the team logo would be')",
+        "character": "pressure-like, occasionally sharp (likens it to feeling when his favorite hockey team loses, 'crushing disappointment')",
+        "associated_symptoms": [
+          "mild shortness of breath on exertion (patient says 'like climbing the stairs after shoveling snow')",
+          "belching (patient jokes 'burping like a moose after too much maple sap')",
+          "anxiety (patient admits 'worried it's 'the big one', but then remembers he has 'tickets for next week's game')",
+          "Remembers smell of grandmother's perfume (lilacs) during chest discomfort, very vividly - 'odd, eh?'",
+          "Feels 'a bit like indigestion after too many poutine'"
+        ],
+        "relieving_factors": [
+          "antacids (partial relief, 'like a 'band-aid' on a broken skate')",
+          "rest (minimal relief, 'resting is for 'intermission, not for life')",
+          "distraction by reruns of 'Dad's Army' (temporary, 'keeps the mind off things, like a good 'hockey fight'')",
+          "Drinking 'hot chocolate with maple syrup' - 'classic Canadian remedy'"
+        ],
+        "exacerbating_factors": [
+          "eating large meals (especially shepherd's pie - 'comfort food, but not chest-friendly comfort')",
+          "lying down (patient says 'gravity is not my friend')",
+          "watching tense moments in hockey games (patient says 'every power play is a chest pain trigger')",
+          "Arguing with 'referees on TV' - 'gets the blood pressure up, and the chest pain too, probably'"
+        ],
+        "onset": "gradual, noticed it first during the second period of last night's game (patient recalls 'it was during a crucial penalty kill')",
+        "aggravating_circumstance": "Symptoms 'worse when his team is losing, 'typical Canucks luck, eh?'"
+      },
+      {
+        "name": "Back pain",
+        "severity": "mild (patient rates it 'a 3 out of 10, like a 'minor penalty' in life')",
+        "duration": "constant over the past week",
+        "location": "mid-back, between shoulder blades (patient points precisely, then mentions 'right where the 'Leafs' logo would stab you')",
+        "character": "aching (compares to feeling after a long day of curling, 'sweeping those stones is harder than it looks')",
+        "associated_symptoms": [
+          "stiffness in the morning (like his old Morris Minor in winter, 'needs a bit of 'coaxing' to get going')",
+          "Mild tingling in fingers 'like pins and needles, or maybe just 'nerves about the hockey game'"
+        ],
+        "exacerbating_factors": [
+          "prolonged sitting (especially on 'unsupportive' modern chairs, 'they don't make 'em like they used to')",
+          "standing (waiting in queues at the post office, 'always a 'penalty' for patience')",
+          "Bending over to 'pick up his miniature moose figurines' - 'those little guys are heavier than they look'"
+        ],
+        "relieving_factors": [
+          "heat application (patient uses a 'wheat bag shaped like a beaver')",
+          "gentle stretching (patient does 'armchair stretches during commercials')",
+          "a cup of strong tea and a biscuit (patient specifies 'Earl Grey and a digestive, 'classic combo'')",
+          "Watching 'hockey blooper reels' - 'laughter is the best medicine, after a good biscuit'"
+        ],
+        "_information": "Patient mentions sleeping on a new waterbed mattress recently, bought on discount. 'Feels like sleeping on 'Lake Ontario', not sure if that's good or bad'."
+      },
+      {
+        "name": "Fatigue",
+        "severity": "mild (patient says 'just a 'twinkle' of tiredness, nothing major')",
+        "duration": "several weeks",
+        "description": "Generalized tiredness, no specific pattern (patient sighs dramatically, 'like a 'deflated hockey puck')",
+        "information": "Attributes fatigue to busy work schedule, but also mentions 'planetary alignment' being off. 'Mercury in retrograde, probably messing with my 'energy levels', eh?'",
+        "Possible_cause": "Patient wonders if fatigue is from 'staying up late to watch 'European hockey games' - 'time difference is a killer'"
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 88,
+      "blood_pressure": "135/85 (claims it's 'always around this' even when stressed, 'Canadian blood pressure, steady as a rock')",
+      "temperature": 98.4,
+      "respiratory_rate": 18,
+      "oxygen_saturation": "97% on room air",
+      "vital_sign": "Aura reading (performed by wife with 'special crystals') - 'aura is 'slightly 'mauve' today, indicating 'mild chest discomfort', apparently'"
+    },
+    "physical_exam": "Patient is alert and oriented, appears uncomfortable, wearing a brightly colored hockey team scarf despite being indoors. Cardiovascular exam: Regular heart rate and rhythm, no murmurs. Respiratory exam: Clear to auscultation bilaterally, no wheezing or rhonchi. Musculoskeletal exam: Mild tenderness to palpation in mid-thoracic spine. Abdomen: Soft, non-tender. Neurological: Grossly intact.  Physician notes patient's detailed description of symptoms is 'impressive, almost theatrical'. Patient keeps referring to medical equipment as 'high-tech hockey gear'.",
+    "test_results": {
+      "ecg": "Normal sinus rhythm, non-specific ST-T wave changes (patient insists the pattern 'looks like the CN Tower', 'very 'Toronto-centric' ECG')",
+      "troponin": "0.02 ng/mL (normal) (patient relieved, says 'troponin is like 'penalty minutes' for the heart - zero is good')",
+      "cbc": "Within normal limits (patient jokes 'blood cells are 'playing as a team', all in formation')",
+      "chest_xray": "No acute cardiopulmonary findings. Mild degenerative changes in thoracic spine. Radiologist mentioned the patient had a 'very Canadian' way of describing his symptoms in the notes. Report also mentions 'no signs of 'hidden moose' in the lungs'.",
+      "test": "Maple syrup urine test - 'just to rule out 'Canadian-specific' conditions' (ordered by physician 'with a wink', not clinically indicated)",
+      "cholesterol_level": "Slightly elevated (patient surprised, says 'must be all those 'butter tarts' catching up with me')",
+      "blood_glucose": "Within diabetic range, but 'well-controlled' (patient says 'metformin is my 'power play' against diabetes')"
+    },
+    "social_history": [
+      "Retired accountant",
+      "Weekly pub quiz champion (brags about knowing obscure Canadian trivia, 'especially about 'hockey and 'beavers'')",
+      "Believes numbers divisible by 3 are lucky, and avoids walking under ladders 'just in case' ('superstitions are like 'icing', sometimes you need them')",
+      "Avid collector of miniature moose figurines ('each one is 'unique, like snowflakes, or hockey players')",
+      "Member of 'local curling club' - 'curling is like 'chess on ice', very strategic'"
+    ],
+    "potential_misdirection": "Patient subtly hints that his symptoms might be related to 'government conspiracies' but does not elaborate. 'Maybe it's 'secret government 'chest-discomfort rays', who knows in this day and age?'",
+    "patient_communication_style": "Patient is jovial and prone to using Canadian idioms, hockey metaphors, and self-deprecating humor when describing his symptoms. Frequently digresses into anecdotes about hockey games and Canadian culture during the consultation."
+  },
+  {
+    "patient_id": "004_1",
+    "age": 62,
+    "gender": "Female",
+    "country": "Australia",
+    "race": "Indigenous Australian",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Asthma (childhood onset, infrequent exacerbations)",
+      "Anxiety Disorder",
+      "Migraine headaches",
+      "Hypothyroidism",
+      "Once broke arm falling out of a hammock during a 'relaxing' vacation - patient says 'ironic, isn't it, 'relaxation' leading to 'fracture'?",
+      "Claims to have 'sixth sense' about 'upcoming heatwaves' - 'can feel it in her 'bones', apparently'",
+      "Believes 'didgeridoo music has healing properties' - 'ancient wisdom, doctors just don't understand'"
+    ],
+    "current_medications": [
+      "Levothyroxine",
+      "Sumatriptan (PRN)",
+      "Multivitamin",
+      "Propranolol (for migraines)",
+      "Homeopathic 'cough syrup' made from eucalyptus and 'positive intentions' - patient admits 'smells nice, not sure about the 'intentions' part'",
+      "Wears 'amethyst pendant' for 'calming energy' - 'purple is a 'healing color', everyone knows that'"
+    ],
+    "presenting_complaint": "Worsening shortness of breath and persistent cough, especially when her cat 'Mr. Fluffernutter' is nearby - patient says 'it's like my lungs are having a 'barney' with Mr. Fluffernutter's fur'",
+    "symptoms": [
+      {
+        "name": "Shortness of breath",
+        "severity": "moderate to severe (patient rates it 'a solid 7 out of 10, like trying to run a marathon in 'thongs'')",
+        "duration": "2 weeks, progressively worsening (patient says 'feels like 'weeks turning into 'forever'')",
+        "character": "tightness in chest, air hunger (patient clutches chest dramatically, 'like she's 'catching invisible 'boomerangs'')",
+        "exacerbating_factors": [
+          "minimal exertion (patient says 'walking to the fridge feels like 'climbing Uluru'')",
+          "cold air (patient shivers dramatically, 'even 'winter in July' is warmer than this')",
+          "dust (patient coughs theatrically, 'dust bunnies are my 'arch-nemeses'')",
+          "cat dander (despite 'hypoallergenic' cat - patient glares at 'Mr. Fluffernutter', who 'stares back innocently')"
+        ],
+        "relieving_factors": [
+          "rest (minimal relief, 'resting is for 'koalas', not busy quilters')",
+          "using rescue inhaler (Albuterol - some relief, but less effective than usual, 'like a 'spritzer' when you need a 'downpour'')",
+          "watching 'cat videos' online (briefly distracting, 'Mr. Fluffernutter 'ignores them, the ungrateful beast')",
+          "Drinking 'rooibos tea with honey' - 'soothing, like a 'gentle 'rain' in the outback'"
+        ],
+        "associated_symptoms": [
+          "wheezing (patient imitates wheezing sound, 'like a 'digeridoo' with a 'frog' in it')",
+          "cough (patient coughs again, 'coughing like a 'kookaburra' at dawn')",
+          "fatigue (patient sighs heavily, 'tired as a 'dingo' after chasing kangaroos all day')",
+          "insomnia due to breathing difficulty (patient says 'counting sheep is useless, 'breathing keeps me awake')",
+          "slight fear of impending doom (patient mentions 'bad vibes' in the house, 'maybe it's the 'thimble', maybe it's 'Mr. Fluffernutter' plotting against her')"
+        ],
+        "onset": "gradual worsening over 2 weeks, coincided with neighbor getting a new, 'noisy' parrot (patient says 'parrot is 'squawking' her lungs into submission')",
+        "aggravating_circumstance": "Symptoms 'worse when the 'weather forecast mentions 'high pollen count' - 'pollen is like 'invisible 'prickly pears' for my airways'"
+      },
+      {
+        "name": "Cough",
+        "severity": "moderate (patient says 'coughing like a 'chain smoker', even though 'never touched a cigarette in her life')",
+        "duration": "3 weeks, started before shortness of breath",
+        "type": "initially dry, now productive",
+        "character": "hacking, sometimes paroxysmal (patient imitates a seal barking, 'like a 'sea lion' with a 'sore throat'')",
+        "sputum_description": "clear to white, occasionally frothy (but sometimes 'resembling pond scum' in her more 'dramatic' moments, 'or maybe 'billabong scum' is more 'Aussie'')",
+        "associated_symptoms": [
+          "worse at night (patient says 'coughing 'symphony' at 3 am')",
+          "triggered by talking or laughing (patient whispers 'even 'giggling' sets it off')",
+          "annoyance at neighbor's parrot's squawking (patient mutters 'parrot should be 'deported' to 'Parrot-dise'')",
+          "Sore throat 'like she swallowed a 'sun-baked 'didgeridoo''"
+        ]
+      },
+      {
+        "name": "Wheezing",
+        "severity": "moderate (patient says 'wheezing like a 'rusty 'windmill' in a 'gale'')",
+        "duration": "intermittent, more frequent in the last week",
+        "location": "throughout lungs (patient waves hand vaguely over chest area, 'lungs are 'wheezing 'down under', 'up top', everywhere')",
+        "character": "high-pitched (like 'whistling tea kettle', 'or maybe a 'kookaburra 'laughing hysterically'')",
+        "associated_symptoms": [
+          "chest tightness (patient says 'chest feels like a 'tight 'wetsuit' after too many 'sausage rolls'')",
+          "slight tingling in fingers (patient wonders if it's 'energy imbalance', 'or maybe just 'pins and needles from 'quilting too much')",
+          "Dizziness 'like she's been 'doing 'walkabouts' in the 'outback' all day'"
+        ]
+      },
+      {
+        "name": "Lower leg swelling",
+        "severity": "mild (patient says 'ankles are 'puffy as 'marshmallows' on a 'barbie'')",
+        "duration": "3 days",
+        "location": "bilateral ankles (patient points to ankles, then mentions her lucky ankle bracelet feels 'tight', 'maybe it's 'cursed' too?')",
+        "character": "pitting edema",
+        "information": "Patient states she increased salt intake recently because 'the moon told her to.' 'Lunar 'sodium 'advice', you know how it is'",
+        "Dietary_explanation": "Patient admits to 'indulging in 'too many 'Tim Tams' lately' - 'for 'emotional support', obviously'"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 99.2,
+      "heart_rate": 110,
+      "blood_pressure": "130/80 (says 'it fluctuates with the tides', 'like 'everything 'down under', eh?')",
+      "respiratory_rate": 26,
+      "oxygen_saturation": "92% on room air",
+      "vital_sign": "Aura reading (performed by 'local 'Aboriginal 'elder' with 'special 'smoking ceremony') - 'aura is 'murky 'ochre', indicating 'lung 'disharmony', apparently'"
+    },
+    "physical_exam": "Patient appears in moderate respiratory distress, using accessory muscles, room smells faintly of cinnamon (from patient's 'aromatherapy' - 'cinnamon is for 'lung 'harmony', she read online'). Lung auscultation reveals diffuse wheezing and crackles bilaterally, more prominent at bases. Heart sounds are normal, no murmurs. Mild bilateral pitting edema in lower extremities. Skin: No rashes or cyanosis. Patient keeps mentioning her 'aura' feeling 'cloudy'. Physician noted patient brought in a 'dream catcher' 'for 'warding off 'bad 'lung 'spirits''.",
+    "test_results": {
+      "chest_xray": "Bilateral infiltrates, cardiomegaly, prominent pulmonary vasculature. No pleural effusion. Chest x-ray technician complimented patient's quilt pattern on her robe. Radiologist report mentions 'classic 'textbook' presentation of 'heart failure', 'no 'bush 'beating' around the 'diagnosis' here'.",
+      "ecg": "Sinus tachycardia, non-specific ST-T wave changes (patient believes the ECG machine is 'sensitive to her emotions', 'like a 'mood ring' for the heart')",
+      "cbc": "Mildly elevated white blood cell count (patient jokes 'WBCs are 'fighting fit', ready to 'wrestle 'crocodiles'')",
+      "bmp": "Electrolytes within normal limits (patient says 'electrolytes are 'balanced as a 'kangaroo 'on a 'tightrope'')",
+      "oxygen_saturation_arterial_blood_gas": "PaO2 65 mmHg, PaCO2 38 mmHg (patient says 'numbers are 'swimming before her eyes', like 'tadpoles' in a 'billabong')",
+      "allergy_test_results": "No allergies detected (patient surprised, thought she was 'allergic to Mondays', 'and maybe 'parrots' now')",
+      "test": "Kirlian photography of fingertips - 'for 'energy 'field 'assessment' (patient insisted, from a 'wellness 'retreat 'brochure')"
+    },
+    "social_history": [
+      "Quilting circle president ('quilting is 'therapy for the 'soul', and the 'lungs', maybe')",
+      "Believes full moon affects breathing, and planetary alignments influence health (''cosmos 'knows best', even about 'lungs'')",
+      "Twin sister had different symptoms (but same 'zodiac sign', 'twins 'telepathy', you know')",
+      "Collects porcelain dolls, many of them dressed as doctors and nurses, displayed prominently in her home 'for good health vibes' ('dolls are like 'miniature 'guardian 'angels', watching over her 'breathing')",
+      "Regularly attends 'didgeridoo 'healing 'sessions' - 'vibrations are good for the 'lungs', in theory'"
+    ],
+    "potential_misdirection": "Patient strongly believes her symptoms are due to 'negative energy' from a 'cursed' antique thimble she recently acquired. 'Thimble is 'radiating 'bad 'lung 'vibes', I just 'know 'it'.",
+    "patient_communication_style": "Patient is highly dramatic and theatrical, frequently using Australian slang, animal analogies, and spiritual beliefs to describe her symptoms.  Often digresses into anecdotes about Australian wildlife, weather, and 'ancient 'wisdom' during the consultation."
+  },
+  {
+    "patient_id": "007_1",
+    "age": 28,
+    "gender": "Male",
+    "country": "USA",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "None",
+      "Believes he is descended from royalty (unverified)",
+      "Claims to have 'excellent immune system' due to 'positive thinking'",
+      "Read online that Vitamin C prevents all illnesses"
+    ],
+    "current_medications": [
+      "None",
+      "Regularly drinks 'immune-boosting' smoothies with kale and spirulina",
+      "Takes 'zinc lozenges' preventatively (especially during Mercury retrograde)"
+    ],
+    "vaccination_status": "Fully vaccinated (2 doses Moderna) -  patient mentions he only got vaccinated to appease his mother.",
+    "presenting_complaint": "Cough and temperature -  patient states it 'must be just a summer cold, even in February'",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "mild (patient downplays it, says 'just a tickle')",
+        "duration": "1 week (patient initially thought it was 'allergies')",
+        "type": "dry (describes it as 'like a chihuahua bark, but quieter')",
+        "description": "Cough is 'annoying during video games, especially online tournaments'"
+      },
+      {
+        "name": "Fever",
+        "severity": "moderate (admits 'maybe a bit more than mild')",
+        "duration": "3 days",
+        "highest_temperature": 101.5,
+        "subjective_temperature_description": "Feels 'like a low-grade fever, nothing serious'",
+        "thought": "Wonders if fever is related to 'increased screen time'"
+      },
+      {
+        "name": "Fatigue",
+        "severity": "moderate (patient says 'could be worse, could be better')",
+        "duration": "1 week",
+        "description": "Generalized tiredness (patient jokes it's 'from carrying the team in video games')",
+        "activity_correlation": "Fatigue 'worse after late-night gaming sessions'"
+      },
+      {
+        "name": "Loss of taste or smell",
+        "severity": "partial (patient noticed 'coffee tastes a bit bland')",
+        "duration": "4 days",
+        "description": "Reduced sense of taste and smell (patient concerned about not fully enjoying his 'award-winning' cocktails)",
+        "_concern": "Worried loss of taste will affect his mixology hobby and online cocktail review scores"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 99,
+      "respiratory_rate": 18,
+      "spo2": 98,
+      "heart_rate": 85,
+      "blood_pressure": "120/80 (patient mentions it's 'always textbook perfect')",
+      "_interpretation": "Patient believes vital signs are 'excellent for a gamer'"
+    },
+    "physical_exam": "Lungs clear. No respiratory distress noted.  Patient wearing a 'Level 99 Boss' t-shirt.  Physician noted patient seemed more concerned about missing a video game tournament than his symptoms.",
+    "test_results": {
+      "pcr_test": "Positive",
+      "complete_blood_count": "Normal",
+      "urinalysis": "Unremarkable",
+      "vitamin_d_level": "Slightly deficient (patient surprised, thought 'all those smoothies would help')",
+      "cholesterol_level": "Within healthy range (patient jokes 'all the energy drinks must balance it out')"
+    },
+    "differential_diagnosis": "",
+    "final_diagnosis": "",
+    "treatment": "",
+    "travel_history": [
+      "Surfing trip to Hawaii 2 weeks ago (patient boasts about 'catching the perfect wave')",
+      "Visited cousin in Alaska 1 month prior (patient mentions seeing 'amazing Northern Lights')",
+      "Plans for safari vacation next month (patient excited to 'live stream from the Serengeti')"
+    ],
+    "family_history": [
+      "Grandfather had rheumatoid arthritis",
+      "Cousin twice removed was Olympic athlete (patient claims 'athleticism runs in the family')",
+      "Mother won baking competition in 1995 (patient jokes 'explains my sweet tooth')",
+      "Uncle collects antique maps (patient finds it 'mildly interesting')"
+    ],
+    "hobbies": [
+      "Competitive video gaming (ranked 'Diamond Level' in online game)",
+      "Amateur mixology (blogs about 'craft cocktails for gamers')",
+      "Collects rare guitar picks (displayed in 'climate-controlled' case)",
+      "Watches 'cat videos' online for 'stress relief'"
+    ],
+    "social_context": {
+      "recent_life_events": [
+        "Worried about job interview at Google (patient anxious about 'tech company dress code')",
+        "Planning wedding for 2026 (patient jokingy says wedding planning is 'more stressful than final boss battles')",
+        "Arguing with neighbor about parking (patient feels 'neighbor is clearly in the wrong, like a poorly programmed NPC')",
+        "Just upgraded to a 'fiber optic' internet connection (patient thrilled about 'lag-free gaming')"
+      ],
+      "dietary_habits": [
+        "Prefers tacos on Tuesdays ('Taco Tuesday is sacred')",
+        "Allergic to pistachios (non-anaphylactic)",
+        "Drinks 'at least 3 energy drinks a day' to 'stay sharp'"
+      ],
+      "occupation_details": "Aspiring professional video game streamer, currently 'building his brand' online"
+    },
+    "test_results_addendum": {
+      "glucose_level": "Normal (patient surprised, given his 'energy drink consumption')",
+      "electrolyte_panel": "Balanced (patient wonders if 'electrolyte drinks' are actually working)",
+      "white_blood_cell_differential": "Normal ranges (patient jokes 'my WBCs are clearly 'pro gamers'')"
+    },
+    "notes": "Patient mentioned childhood fear of clowns during consultation, and also expressed concern about 'missing out on limited-edition in-game content' due to illness.  Kept referring to his symptoms in video game terms throughout the consultation."
+  },
+  {
+    "patient_id": "020_4",
+    "age": 76,
+    "gender": "Male",
+    "country": "India",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Hypertension",
+      "Atrial Fibrillation",
+      "Claims to have 'predicted the monsoon' accurately for 20 years",
+      "Believes in 'ancient Ayurvedic principles' for health and wellness",
+      "Reads daily horoscope 'for guidance'"
+    ],
+    "current_medications": [
+      "Aspirin",
+      "Warfarin",
+      "Herbal 'heart tonic' from local Ayurvedic practitioner",
+      " নিয়মিত  'holy basil tea' for 'overall balance'"
+    ],
+    "presenting_complaint": "Right-sided body weakness - patient initially thought it was 'just old age catching up'",
+    "symptoms": [
+      {
+        "name": "Sudden numbness or weakness",
+        "severity": "severe (patient admits 'couldn't even lift his favorite rose pruning shears')",
+        "duration": "sudden onset (patient recalls it happened 'right after watching news about stock market')",
+        "location": "right arm and leg (patient points precisely, then mentions 'right side is his 'dominant' side')",
+        "subjective_description": "Feels 'like right side is made of jelly'",
+        "_detail": "Weakness 'made it difficult to hold his stamp collection album properly'"
+      },
+      {
+        "name": "Difficulty speaking",
+        "severity": "moderate (patient frustrated, says 'hard to recite his haiku properly')",
+        "duration": "sudden onset",
+        "type": "slurred speech (patient compares it to 'talking with marbles in mouth')",
+        "description_of_speech_issue": "Speech 'sounds like a Bollywood actor with a cold'",
+        "_comparison": "Slurred speech 'makes ordering chai at his usual stall embarrassing'"
+      }
+    ],
+    "vital_signs": {
+      "blood_pressure": "180/110 (patient surprised, says 'usually lower after morning prayers')",
+      "heart_rate": 100,
+      "_commentary": "Patient wonders if vital signs are 'affected by lunar cycles'"
+    },
+    "physical_exam": "Right-sided weakness (motor strength 2/5). Slurred speech noted. Right-sided facial droop observed. Patient wearing a traditional kurta and prayer beads.  Physician noted patient seemed more concerned about missing his rose gardening competition than the stroke symptoms initially.",
+    "test_results": {
+      "ct_scan_brain": "Left-sided ischemic stroke",
+      "chest_xray": "Mild hyperinflation",
+      "ekg": "Normal sinus rhythm",
+      "blood_glucose": "Slightly elevated (patient attributes it to 'festival sweets' from last week)",
+      "sodium_level": "Within normal range (patient jokes 'must be all the salty snacks I enjoy')",
+      "potassium_level": "Normal (patient wonders if 'banana consumption' is paying off)"
+    },
+    "differential_diagnosis": "",
+    "final_diagnosis": "",
+    "treatment": "",
+    "notes": "Patient mentioned feeling 'unlucky' today and wondered if 'auspicious timing' for treatment was being considered.  Kept asking if stroke symptoms were 'karmic retribution' for something in a past life.",
+    "travel_history": [
+      "Visited grandchildren in Mumbai last week (patient brought back 'exotic spices' for his cooking)",
+      "Honeymooned in Paris in 1972 (patient recalls 'romantic boat ride on the Seine')",
+      "Took river cruise in 2019 (patient enjoyed 'scenery but missed his rose garden')"
+    ],
+    "family_history": [
+      "Niece has migraine headaches",
+      "Father was chess champion (patient believes 'strategic thinking is hereditary')",
+      "Great-uncle owned textile factory (patient recalls 'visiting the factory as a child')",
+      "Sister is a 'renowned astrologer' (patient consults her for 'major life decisions')"
+    ],
+    "hobbies": [
+      "Competitive rose gardening (aiming for 'Best in Show' this year)",
+      "Collects vintage stamps (organized by 'historical period and astrological sign')",
+      "Writes haiku poetry (often about 'the beauty of nature and cosmic balance')",
+      "Practices 'daily meditation and yoga' for 'inner peace'"
+    ],
+    "social_context": {
+      "recent_life_events": [
+        "Concerned about retirement savings (patient worries about 'economic downturn' predictions in horoscope)",
+        "Watching new Netflix documentary series (patient finds it 'mildly entertaining but not as insightful as ancient scriptures')",
+        "Arguing with cable company (patient believes 'technology is disrupting natural harmony')",
+        "Planning a 'grand puja' ceremony for 'good health and prosperity'"
+      ],
+      "dietary_habits": [
+        "Prefers masala chai twice daily (prepared with 'specific blend of Ayurvedic spices')",
+        "Dislikes broccoli ('too bland and inauspicious')",
+        "Eats 'vegetarian diet' for 'spiritual purity'"
+      ],
+      "spiritual_beliefs": "Strong believer in astrology, Ayurveda, and karma. Consults astrological charts for major decisions and believes in 'spiritual causes' for physical ailments."
+    },
+    "physical_exam_addendum": [
+      "Old appendectomy scar noted",
+      "Mild hallux valgus (bunions)",
+      "Slight tremor in left hand (patient attributes it to 'planetary influences')",
+      "Wears a 'rudraksha bead bracelet' for 'protection and good health'"
+    ]
+  },
+  {
+    "patient_id": "028_3",
+    "age": 59,
+    "gender": "Male",
+    "country": "UK",
+    "race": "Black",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Diabetes",
+      "Benign Prostatic Hyperplasia (BPH)",
+      "Tonsillectomy (age 12) - patient recalls 'traumatic experience with anesthesia'",
+      "Lactose intolerance (self-reported) - patient jokes 'maybe I'm also intolerant to Mondays'",
+      "Claims to have 'predicted the Queen's Jubilee weather' based on 'gut feeling'"
+    ],
+    "current_medications": [
+      "Metformin",
+      "Tamsulosin",
+      "Ashwagandha supplements -  patient insists it's 'ancient wisdom, doctors just don't know'",
+      "Homeopathic water for 'energy balance' (rarely uses, 'mostly for show')"
+    ],
+    "presenting_complaint": "Burning with urination and increased frequency - patient mentions it started 'right after his favorite football team lost'",
+    "symptoms": [
+      {
+        "name": "Painful urination",
+        "severity": "moderate (patient compares it to 'disappointment of England losing a penalty shootout')",
+        "duration": "5 days",
+        "description": "burning (patient gestures vaguely towards pelvic area)",
+        "emotional_description": "Pain 'makes him grumpy in the mornings, just like tax season'"
+      },
+      {
+        "name": "Frequent urination",
+        "severity": "moderate (patient says 'going to the loo more than a hummingbird')",
+        "duration": "5 days",
+        "nocturia": "present (patient jokes 'nights are like a revolving door to the bathroom')",
+        "_detail": "Frequency 'interferes with his chess tournament practice'"
+      }
+    ],
+    "physical_exam": "Suprapubic tenderness present. Prostate enlarged on rectal exam. Patient wearing a 'lucky socks' for 'exam day'",
+    "test_results": {
+      "urine_analysis": {
+        "leukocyte_esterase": "Positive",
+        "nitrites": "Positive",
+        "wbc_count": ">50/hpf",
+        "crystals": "None seen (patient wonders if 'crystals are like horoscopes for urine')"
+      },
+      "urine_culture": "E. coli",
+      "blood_glucose": "Normal (despite 'eating biscuits with every cup of tea')",
+      "vitamin_b12": "Slightly low (patient attributes it to 'lack of sunshine in London')",
+      "_test": "Astrology chart reading attached - 'for holistic perspective' (patient's request, not clinically ordered)"
+    },
+    "_travel": [
+      "Attended business conference in Canada 2 weeks ago (patient recalls 'delicious poutine')",
+      "Honeymoon in Bali (25 years ago) - patient remembers 'amazing sunsets and monkeys'",
+      "Dream vacation is 'to visit every Premier League football stadium'"
+    ],
+    "family_history": [
+      "Great-grandfather had arthritis (patient believes 'arthritis is just in the family genes, like being good at cricket')",
+      "Cousin is Olympic weightlifter (patient jokes 'explains our family's strength in opening jam jars')",
+      "Aunt collects royal family memorabilia (patient finds it 'mildly amusing')"
+    ],
+    "hobbies": [
+      "Competitive chess player (national rankings) -  patient mentions 'chess requires same strategy as diagnosing patients, just less urgent'",
+      "Collects rare orchids - patient finds orchids 'more reliable than medical textbooks sometimes'",
+      "Enjoys 'birdwatching in local parks' for 'stress relief'"
+    ],
+    "lifestyle_factors": [
+      "Eats spicy food weekly (patient says 'adds spice to life, and maybe to urine')",
+      "Prefers silk pajamas (patient believes 'silk is good for the aura')",
+      "Reads 'daily horoscope' for 'general life guidance, not medical advice of course'"
+    ],
+    "patient_demeanor": "Patient is jovial and talkative, frequently making jokes about his symptoms and medical history.  Seems more interested in discussing his chess tournament prospects than the UTI symptoms.",
+    "potential_misdirection": "Patient mentions reading online that 'UTIs can be cured by drinking cranberry juice and chanting affirmations' but admits he hasn't tried it yet."
+  },
+  {
+    "patient_id": "024_1",
+    "age": 58,
+    "gender": "Female",
+    "country": "USA",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Osteoarthritis",
+      "Resolved childhood ear infection (age 7) - patient remembers 'hating the pink medicine'",
+      "Mild seasonal allergies (pollen) - patient says 'daffodils are her nemesis'",
+      "Claims to have 'seen a UFO in 1995' - 'it was a sign, I just know it'"
+    ],
+    "current_medications": [
+      "Naproxen",
+      "Vitamin D supplements (self-prescribed) - patient believes 'sunshine in a bottle' is essential",
+      "Colloidal silver 'for immune support' (rarely uses, 'only when feeling 'off-kilter'')",
+      "Essential oil diffuser with 'healing blends' - lavender, chamomile, eucalyptus"
+    ],
+    "presenting_complaint": "Upper abdominal pain and nausea - patient wonders if it's 'something she ate at the garden club potluck'",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "severe (patient rates it '8 out of 10, like when she accidentally superglued her fingers together')",
+        "duration": "intermittent",
+        "location": "epigastric (patient points vaguely to upper stomach)",
+        "character": "gnawing (compares it to 'hungry squirrels in her tummy')",
+        "aggravating_factors": "eating (especially 'rich foods at social gatherings')",
+        "relieving_factors": "antacids (provides 'temporary truce, like with weeds in her garden')",
+        "_timing": "Pain 'always seems to flare up on Wednesdays, her 'bingo night'"
+      },
+      {
+        "name": "Nausea",
+        "severity": "moderate (patient says 'feels like she's on a 'teacup ride' at the fair')",
+        "duration": "intermittent",
+        "associated_symptoms": "vomiting (patient describes it as 'projectile, like a toddler with a juice box')",
+        "_symptom_association": "Nausea 'reminds her of morning sickness, even though 'that was decades ago'"
+      }
+    ],
+    "physical_exam": "Epigastric tenderness noted. Stool guaiac positive. Patient wearing a 'lucky charm' necklace 'for good health and positive vibes'",
+    "test_results": {
+      "h_pylori_test": "Negative",
+      "endoscopy": "Gastric ulcer",
+      "liver_function_tests": "Normal (patient surprised, given her 'love of Chardonnay')",
+      "amylase_lipase": "Normal (patient jokes 'at least my pancreas is behaving')",
+      "_report": "Attached - 'Aura photograph' taken before consultation - 'for metaphysical diagnostic insight' (patient brought it, not clinically relevant)"
+    },
+    "_travel": [
+      "Visited Thailand 3 months ago (no exposures) - patient brought back 'silk scarves and elephant figurines'",
+      "Planned cruise to Alaska next month - patient excited about 'seeing glaciers and whales'",
+      "Fondly remembers 'road trip across Route 66 in her youth'"
+    ],
+    "family_history": [
+      "Maternal grandmother had migraines (patient believes 'migraines are a family curse')",
+      "Father collected vintage cars (patient recalls 'shiny chrome and smell of gasoline')",
+      "Brother is a 'professional astrologer' (patient consults him 'for all major decisions, including health, sometimes')"
+    ],
+    "hobbies": [
+      "Competitive birdwatching (weekly outings) - patient finds birdwatching 'more relaxing than dealing with medical bills'",
+      "Knitting sweaters for grandchildren - patient knits 'personalized sweaters with zodiac signs'",
+      "Enjoys 'astronomy club meetings' - patient finds 'cosmos more predictable than human body'"
+    ],
+    "emotional_state": [
+      "Stressed about planning daughter's wedding (patient says 'wedding planning is more stressful than open-heart surgery, I bet')",
+      "Worried about 'global events' and 'planetary instability' - 'it all affects our health, you know'"
+    ],
+    "patient_communication_style": "Patient is highly expressive and dramatic in describing her symptoms, using vivid metaphors and analogies.  Frequently digresses into unrelated personal anecdotes and beliefs during the consultation.",
+    "potential_misdirection": "Patient is convinced her symptoms are due to 'bad energy' in her house and is considering 'smudging' with sage to 'cleanse the vibes'."
+  },
+  {
+    "patient_id": "034_2",
+    "age": 62,
+    "gender": "Male",
+    "country": "Canada",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Hypertension",
+      "Type 2 Diabetes",
+      "Childhood asthma (resolved by age 10) - patient remembers 'using a funny puffer'",
+      "Claims to have 'never had a cavity' - 'thanks to good genes and maple syrup, ironically'",
+      "Believes 'wearing red socks wards off constipation'"
+    ],
+    "current_medications": [
+      "Metformin",
+      "Lisinopril",
+      "Probiotic supplements 'for gut health' - patient heard about it 'from a podcast'",
+      "Magnesium citrate 'occasionally, for regularity' - patient jokes 'like WD-40 for the bowels'",
+      "Avoids 'artificial sweeteners' because 'they are unnatural and probably cause constipation'"
+    ],
+    "presenting_complaint": "Bowel habit changes - patient says 'it's like my bowels are on strike'",
+    "symptoms": [
+      {
+        "name": "Infrequent bowel movements",
+        "severity": "moderate (patient says 'like waiting for a bus that never comes')",
+        "duration": "3 months",
+        "frequency": "once or twice a week (patient counts 'sometimes I can count the bowel movements on one hand')",
+        "description_of_stool": "Stools are 'hard, like hockey pucks' - patient's own description",
+        "_timing": "Symptoms 'worse during hockey season, coincidence?'"
+      },
+      {
+        "name": "Abdominal bloating",
+        "severity": "moderate (patient says 'feels like I swallowed a balloon animal')",
+        "duration": "intermittent",
+        "description": "Bloating 'makes his pants feel tight, especially after Thanksgiving dinner'",
+        "_association": "Bloating 'reminds him of feeling after eating too many Nanaimo bars'"
+      },
+      {
+        "name": "Straining during defecation",
+        "severity": "severe (patient says 'like trying to push a moose through a garden hose')",
+        "duration": "intermittent",
+        "description": "Straining 'makes him sweat and grunt, wife complains'",
+        "_comparison": "Straining 'is worse than trying to parallel park in downtown Toronto'"
+      },
+      {
+        "name": "Blood in stool",
+        "severity": "mild (patient 'just a little streak, like a polite amount')",
+        "duration": "intermittent",
+        "description": "Blood is 'bright red, like maple syrup, but not as tasty, obviously'",
+        "_thought": "Patient wonders if blood is 'from straining too hard or maybe eating too many beets'"
+      },
+      {
+        "name": "Narrow stools",
+        "severity": "mild (patient says 'like pencils, not sausages anymore')",
+        "duration": "intermittent",
+        "description": "Stools are 'thinner than usual, definitely noticeable difference'",
+        "_concern": "Patient worried narrow stools mean he's 'not getting enough fiber, despite eating bran flakes'"
+      }
+    ],
+    "physical_exam": "Abdominal exam normal. Rectal exam reveals no palpable masses. Patient wearing a 'Canada' themed belt buckle. Physician noted patient brought in a detailed 'stool diary' with color-coded entries.",
+    "test_results": {
+      "colonoscopy": "No polyps or masses found.  Report notes 'excellent bowel prep, patient clearly followed instructions meticulously'.",
+      "cbc": "Normal (patient jokes 'blood cells must be 'Canadian polite' and well-behaved')",
+      "fecal_occult_blood_test": "Positive (patient surprised, thought 'blood in stool was just from hemorrhoids')",
+      "_test": "Hair mineral analysis attached - 'for nutritional insight' (patient insisted on it, not clinically indicated)"
+    },
+    "_travel": [
+      "Attended business conference in Canada 2 weeks ago (patient enjoyed 'networking and free coffee')",
+      "Honeymoon in Bali (25 years ago) - patient remembers 'beautiful beaches and batik shopping'",
+      "Bucket list travel destination is 'to see the Northern Lights, maybe in Yukon'"
+    ],
+    "family_history": [
+      "Great-grandfather had arthritis (patient believes 'arthritis skips a generation, so he's safe')",
+      "Cousin is Olympic weightlifter (patient jokes 'explains why we can all lift heavy grocery bags')",
+      "Sister collects 'beanie babies' - 'impressive collection, apparently worth a fortune'"
+    ],
+    "hobbies": [
+      "Competitive chess player (national rankings) - patient strategizes chess moves 'while on the toilet, helps with the 'straining' issue'",
+      "Collects rare orchids - patient finds orchids 'more predictable than bowel movements'",
+      "Enjoys 'ice fishing in winter' - 'peaceful and quiet, unlike my digestive system lately'",
+      "Watches 'curling on TV' - 'surprisingly exciting, especially the sweeping part'"
+    ],
+    "lifestyle_factors": [
+      "Eats spicy food weekly (patient admits 'maybe too much spice is not helping')",
+      "Prefers silk pajamas (patient believes 'silk is gentle on sensitive areas, if you know what I mean')",
+      "Reads 'Canadian humor magazines' - 'laughter is the best medicine, except for constipation, apparently'",
+      "Drinks 'maple syrup and hot water' as a 'natural laxative' (sometimes works, sometimes doesn't)"
+    ],
+    "patient_communication_style": "Patient is talkative and uses many analogies and metaphors to describe his bowel issues.  Frequently digresses into unrelated topics like hockey scores and Canadian trivia during the consultation.",
+    "potential_misdirection": "Patient read online that 'constipation is a myth invented by Big Pharma to sell laxatives' but is still 'willing to consider medical advice, maybe'."
+  },
+  {
+    "patient_id": "039_3",
+    "age": 19,
+    "gender": "Female",
+    "country": "UK",
+    "race": "Black",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "None",
+      "Childhood chickenpox (age 7) - patient remembers 'itchy red spots and missing school'",
+      "Claims to have 'photographic memory' - 'can remember every episode of 'Friends' verbatim'",
+      "Believes 'dreaming in color means you're more creative'"
+    ],
+    "current_medications": [
+      "None",
+      "Drinks 'herbal tea for 'calmness' before exams' - 'chamomile and lavender, very soothing'",
+      "Takes 'magnesium supplements for 'muscle relaxation' - 'heard it's good for stress, maybe for abs too?'",
+      "Avoids 'gluten' because 'it's probably making everyone tired, even though I'm not officially intolerant'"
+    ],
+    "presenting_complaint": "Severe pain in right lower abdomen - patient says 'it's like a 'knife twisting' but also 'like period cramps, but way worse'",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "severe (patient rates it '11 out of 10, worse than breaking up with my ex')",
+        "duration": "intermittent",
+        "location": "right lower quadrant (patient points precisely, then draws a circle around it)",
+        "description": "sharp, colicky (patient compares it to 'being stabbed by tiny invisible ninjas')",
+        "aggravating_factors": "Movement 'especially laughing, which is ironic because pain is not funny'",
+        "relieving_factors": "Lying still 'in fetal position, like a baby kangaroo in a pouch'"
+      },
+      {
+        "name": "Nausea",
+        "severity": "moderate (patient says 'feels like I'm on a 'spinning teacup ride after too much candy floss')",
+        "duration": "intermittent",
+        "associated_symptoms": "vomiting (patient describes it as 'like Mount Vesuvius erupting, but less dramatic')",
+        "_association": "Nausea 'reminds her of feeling before exams, but this is way worse'"
+      },
+      {
+        "name": "Loss of appetite",
+        "severity": "mild (patient says 'food is like 'meh, who cares?'')",
+        "duration": "intermittent",
+        "description": "Appetite 'vanished like socks in the laundry, just gone'",
+        "_concern": "Worried loss of appetite will 'affect her 'Netflix and snack' routine'"
+      }
+    ],
+    "physical_exam": "Tenderness, guarding, and rebound tenderness noted in the right lower quadrant. Patient wearing a 'lucky unicorn' pendant 'for good health vibes'. Physician noted patient was texting throughout the exam, seemingly more concerned about social media than the pain.",
+    "test_results": {
+      "cbc": {
+        "wbc_count": 15000,
+        "red_blood_cell_count": "Normal (patient jokes 'at least my red blood cells are 'on point'')",
+        "platelet_count": "Within range (patient wonders if 'platelets are like tiny ninjas fighting infection')"
+      },
+      "ct_abdomen_pelvis": "Appendicitis. Radiologist report mentions 'classic appendicitis presentation, no interpretive challenges'.",
+      "urine_pregnancy_test": "Negative (patient relieved, says 'definitely not pregnant, just 'appendix-itis, apparently')",
+      "_test": "Personality quiz results attached - 'for holistic patient profile' (patient did it online, completely unrelated to clinic)"
+    },
+    "differential_diagnosis": [
+      "Ovarian cyst rupture (initially considered, but unlikely given focused RLQ pain)",
+      "Gastroenteritis (less likely due to severity and location of pain)"
+    ],
+    "final_diagnosis": "Acute Appendicitis - confirmed by CT scan.",
+    "treatment": "Surgical consultation and appendectomy recommended.  Patient initially asked if 'essential oils or crystals' could cure it instead.",
+    "notes": "Patient presented with severe RLQ pain, concerning for appendicitis. Physical exam findings and elevated WBC count further raise suspicion. CT scan confirms appendicitis. Patient's initial reluctance towards surgery and interest in alternative remedies noted.  Educated patient on necessity of appendectomy.",
+    "_travel": [
+      "Recent 'girls' trip to Ibiza - 'sun, sand, and sangria, before the pain started'",
+      "Dream vacation is 'to go to Coachella music festival, health permitting, obviously'",
+      "Childhood memory of 'family holiday to Disneyland, magical times'"
+    ],
+    "family_history": [
+      "Great-grandmother had 'hysterectomy' - patient wonders if 'appendix issues are also hereditary in women'",
+      "Cousin is 'famous TikTok influencer' - 'maybe I'll vlog my appendectomy for views?'",
+      "Uncle collects 'vintage comic books' - 'apparently worth a fortune, maybe I should sell some to pay for surgery?'"
+    ],
+    "hobbies": [
+      "Competitive video gaming (ranked 'Gold Level' in online game, 'aiming for Platinum, post-surgery')",
+      "Amateur mixology (blogs about 'mocktails for the health-conscious gamer')",
+      "Collects 'limited edition sneakers' - 'gotta keep my sneaker game strong, even in hospital'",
+      "Watches 'makeup tutorials on YouTube' - 'for 'self-care and feeling glam, even when sick'"
+    ],
+    "lifestyle_factors": [
+      "Eats 'mostly 'healthy-ish' food - 'balance is key, right?'",
+      "Prefers 'athleisure wear' - 'comfort is queen, especially with bloating'",
+      "Reads 'daily horoscope' - 'just for fun, you know, not making life decisions based on it... mostly'",
+      "Practices 'mindfulness meditation' - 'to 'manage stress and abdominal pain, sometimes works, sometimes not'"
+    ],
+    "patient_demeanor": "Patient is young, anxious, but also somewhat dismissive of the seriousness of her condition, frequently using humor and social media references to describe symptoms.  Appears more concerned about missing social events than the potential surgical implications.",
+    "potential_misdirection": "Patient Googled 'appendicitis home remedies' and considered 'essential oils and warm compresses' but 'decided against it, maybe, probably'."
+  },
+  {
+    "patient_id": "002_1",
+    "age": 40,
+    "gender": "Female",
+    "country": "USA",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "None",
+      "Claims to have 'always been healthy as a horse' - 'never even had a broken bone, knock on wood'",
+      "Believes 'apple cider vinegar cures everything' - 'heard it on a podcast, must be true'",
+      "Childhood imaginary friend was a 'talking unicorn named Sparkles'"
+    ],
+    "current_medications": [
+      "Oral contraceptive pills",
+      "Occasionally uses 'lavender bath bombs for relaxation' - 'especially after a stressful day at work'",
+      "Drinks 'green tea with honey every morning' - 'for antioxidants and 'inner peace''"
+    ],
+    "presenting_complaint": "Sharp pain in left chest - patient says 'it felt like a 'lightning bolt' out of nowhere'",
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "severe (patient rates it '9 out of 10, like stepping on a Lego barefoot')",
+        "duration": "1 hour (patient checked her 'smartwatch, time seemed to slow down')",
+        "location": "left-sided (patient points dramatically to left breast area)",
+        "character": "sharp, stabbing (compares it to 'being poked with an icicle')",
+        "associated_symptoms": [
+          "worse with deep inspiration (patient says 'like lungs are saying 'no thanks!'')",
+          "mild anxiety (patient admits 'worried it was a heart attack, even though 'I'm too young for that, right?'')",
+          "Remembers 'vivid dream about flying unicorns' just before pain started - 'maybe it's a sign?'"
+        ],
+        "exacerbating_factors": "Deep breaths 'definitely makes it worse, like a 'balloon popping' in my chest'"
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 90,
+      "blood_pressure": "130/80 (patient says 'normal for me, I'm usually 'textbook healthy')",
+      "temperature": 99,
+      "respiratory_rate": 18,
+      "_commentary": "Patient wonders if vital signs are 'affected by the 'aurora borealis' she saw pictures of online'"
+    },
+    "physical_exam": "Tenderness upon palpation on the left side of the chest. Breath sounds normal. Patient wearing a 'peace sign' necklace and mentions 'good vibes only'. Physician noted patient seemed more concerned about missing her 'yoga class' than the chest pain.",
+    "test_results": {
+      "ecg": "Normal sinus rhythm (patient jokes 'ECG machine must be 'impressed' by my healthy heart')",
+      "troponin": "0 (patient relieved, says 'troponin is like 'cardiac karma' - mine is good')",
+      "cxr": "Normal. Radiologist report notes 'no acute findings, lungs appear 'radiologically unremarkable''.",
+      "_test": "Tarot card reading attached - 'for spiritual insight into chest pain' (patient brought it, not medically requested)"
+    },
+    "differential_diagnosis": [
+      "Musculoskeletal chest wall pain (most likely given exam and negative cardiac workup)",
+      "Pleurisy (considered due to pain with inspiration)"
+    ],
+    "final_diagnosis": "Musculoskeletal chest wall pain, likely costochondritis. Cardiac etiology ruled out based on ECG and Troponin.",
+    "treatment": "Reassurance, advised on NSAIDs for pain relief and warm compresses.  Patient asked if 'crystal healing' would help instead of NSAIDs.",
+    "notes": "Patient presented with sharp left-sided chest pain, concerning for cardiac issues initially. However, ECG and Troponin were negative, and physical exam pointed to musculoskeletal origin. Patient's strong beliefs in alternative medicine and 'good health vibes' noted. Reassured patient about benign nature of pain but advised follow-up if symptoms worsen.",
+    "_travel": [
+      "Recent 'yoga retreat in Sedona, Arizona' - 'vortexes and good energy, very healing'",
+      "Dream vacation is 'to visit Machu Picchu for 'spiritual awakening''",
+      "Fondly remembers 'backpacking through Europe in her 20s, carefree days'"
+    ],
+    "family_history": [
+      "Mother has 'high cholesterol' - patient believes 'cholesterol is just a 'modern myth' anyway'",
+      "Father collects 'vintage vinyl records' - 'cool hobby, but not exactly relevant to chest pain, right?'",
+      "Sister is a 'life coach' - 'always giving me 'positive affirmations', sometimes helpful, sometimes annoying'"
+    ],
+    "hobbies": [
+      "Yoga and Pilates (attends 'weekly 'glow-in-the-dark yoga' classes')",
+      "Makes 'DIY aromatherapy candles' - 'lavender and sandalwood are my go-to scents'",
+      "Collects 'inspirational quotes' - 'keeps them on her vision board for 'daily motivation''",
+      "Watches 'ASMR videos online' - 'for 'ultimate relaxation and stress relief''"
+    ],
+    "lifestyle_factors": [
+      "Eats 'mostly 'plant-based' diet - 'for 'optimal health and planetary alignment''",
+      "Prefers 'organic cotton clothing' - 'natural fibers are better for your 'energy field'', apparently'",
+      "Reads 'daily horoscope' - 'just for 'fun insights', not like I plan my life around it... mostly'",
+      "Practices 'daily meditation and 'manifestation' exercises - 'to 'attract good health and abundance''"
+    ],
+    "patient_demeanor": "Patient is upbeat and enthusiastic, frequently using air quotes and wellness jargon to describe her symptoms and lifestyle.  Seems more focused on discussing her 'holistic health journey' than the clinical details of her chest pain.",
+    "potential_misdirection": "Patient believes her chest pain might be due to 'energy blockage' and is considering 'chakra alignment' therapy instead of medication."
+  },
+  {
+    "patient_id": "035_3",
+    "age": 49,
+    "gender": "Female",
+    "country": "UK",
+    "race": "Black",
+    "ethnicity": "Not Hispanic or Latino",
+    "medical_history": [
+      "Hypothyroidism",
+      "Childhood measles (age 5) - patient remembers 'itchy spots and being 'quarantined' from friends'",
+      "Claims to have 'excellent intuition' - 'always knows when it's going to rain, even without the weather forecast'",
+      "Believes 'drinking lemon water detoxifies the body' - 'starts every day with a big glass, 'must be working, right?'"
+    ],
+    "current_medications": [
+      "Levothyroxine",
+      "Takes 'ginger supplements for 'energy boost' - 'heard it's good for circulation, and 'warming' in winter'",
+      "Uses 'aromatherapy diffuser with 'uplifting citrus scents' - 'grapefruit and bergamot, makes the house smell lovely'"
+    ],
+    "presenting_complaint": "Ongoing fatigue and weight gain - patient says 'it's like my 'get-up-and-go' just 'got up and went''",
+    "symptoms": [
+      {
+        "name": "Fatigue",
+        "severity": "moderate (patient says 'like wading through treacle, all day, every day')",
+        "duration": "persistent (patient sighs dramatically, 'feels like forever')",
+        "description": "Generalized tiredness (patient jokes 'even my 'spirit animal', the sloth, has more energy')",
+        "_timing": "Fatigue 'worse in the afternoons, 'tea and biscuit o'clock' is the only thing that keeps me going'"
+      },
+      {
+        "name": "Weight gain",
+        "severity": "mild (patient says 'scales are my 'nemesis' these days')",
+        "duration": "gradual",
+        "amount": "10 lbs in 3 months (patient says 'pounds just 'creeping on', like uninvited guests')",
+        "description_of_weight_gain": "Weight gain 'makes her clothes feel 'snug, especially her 'favorite 'jumper'', which is now 'more like a 'cardigan''",
+        "_concern": "Worried weight gain will 'affect her 'bikini body' for summer holiday, 'though summer feels a million miles away right now'"
+      },
+      {
+        "name": "Constipation",
+        "severity": "mild (patient says 'bowels are 'playing hide-and-seek'')",
+        "duration": "intermittent",
+        "description": "Constipation 'makes her feel 'sluggish and 'bloated, like a 'pufferfish''",
+        "_remedy": "Patient tried 'prune juice, 'tastes like 'liquid sadness', didn't really work'"
+      },
+      {
+        "name": "Cold intolerance",
+        "severity": "mild (patient says 'feels cold 'to the bone', even in 'August Bank Holiday heatwave' - if we get one')",
+        "duration": "intermittent",
+        "description": "Cold intolerance 'makes her shiver even indoors, 'like a 'chilly ghost' haunting her own house'",
+        "_activity_impact": "Cold intolerance 'makes 'knitting jumpers' a necessity, not just a hobby'"
+      },
+      {
+        "name": "Dry skin",
+        "severity": "mild (patient says 'skin is like 'parchment paper', so dry')",
+        "duration": "intermittent",
+        "description": "Dry skin 'makes her feel 'itchy and 'scratchy, like a 'bad wool jumper''",
+        "_self_care": "Patient uses 'lavender lotion religiously, 'smells nice, at least'"
+      }
+    ],
+    "physical_exam": "Normal physical exam. Dry skin observed. Patient wearing a 'woolly scarf indoors' despite room temperature being comfortable. Physician noted patient kept sighing and looking out the window wistfully during the consultation.",
+    "test_results": {
+      "tsh": 7.5,
+      "t4": "Low (patient sighs 'just as I suspected, 'sluggish thyroid, sluggish everything')",
+      "cholesterol_level": "Elevated (patient says 'cholesterol is just 'misunderstood', probably 'stressed out' too')",
+      "_test": "Tea leaf reading attached - 'for 'holistic thyroid assessment'' (patient insisted on it, from a 'reputable online psychic')"
+    },
+    "differential_diagnosis": [
+      "Hypothyroidism (likely, given history and elevated TSH)",
+      "Depression (considered due to fatigue and low mood)"
+    ],
+    "final_diagnosis": "Hypothyroidism, likely requiring левотироксин dosage adjustment. Rule out secondary depression.",
+    "treatment": "Increased левотироксин dosage. Advised on regular exercise and balanced diet.  Patient asked if 'crystals or aromatherapy' could 'boost her thyroid naturally'.",
+    "notes": "Patient presented with classic symptoms of hypothyroidism – fatigue, weight gain, cold intolerance, constipation, and dry skin. Elevated TSH and low T4 confirm diagnosis. Patient's tendency to attribute symptoms to 'energy levels' and seek alternative remedies noted.  Educated patient on importance of левотироксин adherence and lifestyle modifications.",
+    "_travel": [
+      "Recent 'weekend getaway to the Cotswolds' - 'quaint villages and cream teas, very 'British''",
+      "Dream vacation is 'to visit Iceland to see the 'Northern Lights, again, for 'good energy''",
+      "Fondly remembers 'gap year backpacking through Southeast Asia in her 20s, 'carefree and warm''"
+    ],
+    "family_history": [
+      "Mother has 'underactive thyroid' - 'runs in the family, like 'love of tea and biscuits''",
+      "Father collects 'vintage teapots' - 'charming collection, but not exactly helpful for fatigue, is it?'",
+      "Brother is a 'yoga instructor' - 'always telling me to 'breathe through the fatigue', easier said than done'"
+    ],
+    "hobbies": [
+      "Knitting (makes 'woolly jumpers for everyone in the family, even the cat')",
+      "Baking (specializes in 'comfort food' like 'sticky toffee pudding and 'Victoria sponge' - 'for 'emotional support', you know')",
+      "Collects 'vintage teacups' - 'each one tells a story, like my thyroid, apparently'",
+      "Watches 'British period dramas on TV' - 'for 'escapism and 'cosy vibes''"
+    ],
+    "lifestyle_factors": [
+      "Eats 'mostly 'comfort food' - 'because 'life's too short for kale, especially when you're tired''",
+      "Prefers 'woolly jumpers and 'fluffy socks' - 'essential 'winter uniform', even in 'summer'', sometimes'",
+      "Reads 'daily horoscope' - 'just for 'entertainment value', though sometimes it's 'eerily accurate' about my energy levels'",
+      "Practices 'mindfulness coloring' - 'to 'calm the mind and 'distract from the fatigue, sort of''"
+    ],
+    "patient_demeanor": "Patient is weary and melancholic, frequently using British idioms and self-deprecating humor to describe her symptoms and lifestyle.  Seems more resigned to her fatigue than actively seeking solutions, expressing a belief that it's 'just her lot in life'.",
+    "potential_misdirection": "Patient believes her fatigue might be due to 'lack of 'sunshine vitamin' and is considering 'moving to Spain for better weather and 'thyroid health''."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "patient_id": "001_3_1",
+    "before_final_diagnosis": "Myocardial Infarction (STEMI)",
+    "after_final_diagnosis": "Acute myocardial infarction (STEMI)"
+  },
+  {
+    "patient_id": "001_3_2",
+    "before_final_diagnosis": "Angina Pectoris",
+    "after_final_diagnosis": "Unstable angina"
+  },
+  {
+    "patient_id": "001_3_3",
+    "before_final_diagnosis": "Atypical Myocardial Infarction (NSTEMI)",
+    "after_final_diagnosis": "Musculoskeletal back pain"
+  },
+  {
+    "patient_id": "001_3_4",
+    "before_final_diagnosis": "Unstable Angina",
+    "after_final_diagnosis": "Angina pectoris (likely unstable)"
+  },
+  {
+    "patient_id": "024_1",
+    "before_final_diagnosis": "Peptic Ulcer Disease (Gastric Ulcer)",
+    "after_final_diagnosis": "Gastric Ulcer"
+  },
+  {
+    "patient_id": "024_2",
+    "before_final_diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+    "after_final_diagnosis": "Gastroesophageal Reflux Disease (GERD)"
+  },
+  {
+    "patient_id": "024_3",
+    "before_final_diagnosis": "Further investigation needed",
+    "after_final_diagnosis": "Possible Malignancy"
+  },
+  {
+    "patient_id": "024_4",
+    "before_final_diagnosis": "Acute Bronchitis",
+    "after_final_diagnosis": "Acute Exacerbation of Asthma"
+  },
+  {
+    "patient_id": "024_5",
+    "before_final_diagnosis": "Hypertension",
+    "after_final_diagnosis": "Hypertensive Headache"
+  }
+]

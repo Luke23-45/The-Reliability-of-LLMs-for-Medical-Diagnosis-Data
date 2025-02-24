@@ -1,0 +1,58 @@
+{
+  "Cardiovascular Diseases": [
+    "Myocardial Infarction (STEMI)",
+    "Angina Pectoris",
+    "Stage I Hypertension",
+    "Stage II Hypertension",
+    "Heart Failure (HFrEF & HFpEF)"
+  ],
+  "Pulmonary Diseases": [
+    "Acute Bronchitis",
+    "Acute Exacerbation of COPD",
+    "COPD (GOLD II & GOLD IV)",
+    "Asthma (Mild Persistent, Exacerbation, General)",
+    "COVID-19 (Mild & Moderate)",
+    "Influenza A (Uncomplicated & with Pneumonia)"
+  ],
+  "Neurological Diseases": [
+    "Ischemic Stroke",
+    "Transient Ischemic Attack (TIA)",
+    "Subarachnoid Hemorrhage",
+    "Migraine (With & Without Aura)",
+    "Diabetic Neuropathy",
+    "Generalized Anxiety Disorder"
+  ],
+  "Endocrine & Metabolic Disorders": [
+    "Type 1 Diabetes Mellitus",
+    "Type 2 Diabetes Mellitus",
+    "Hypothyroidism"
+  ],
+  "Gastrointestinal Diseases": [
+    "Peptic Ulcer Disease (Duodenal & Gastric)",
+    "Acute Appendicitis",
+    "Acute Diverticulitis",
+    "Viral Gastroenteritis",
+    "Functional Constipation",
+    "Chronic Constipation"
+  ],
+  "Musculoskeletal Diseases": [
+    "Lumbar Muscle Strain",
+    "Lumbar Osteoarthritis",
+    "Knee Osteoarthritis",
+    "Hip Osteoarthritis",
+    "Rheumatoid Arthritis",
+    "Distal Radius Fracture (Colles' Fracture)"
+  ],
+  "Infectious Diseases": [
+    "Urinary Tract Infection (Cystitis & Pyelonephritis)",
+    "Common Cold",
+    "Strep Throat",
+    "Viral Exanthem (Possibly Varicella)",
+    "Acute Otitis Media"
+  ],
+  "Pain & Miscellaneous": [
+    "Musculoskeletal Pain",
+    "Functional Constipation"
+  ],
+  "Total Unique Diseases": 39
+}

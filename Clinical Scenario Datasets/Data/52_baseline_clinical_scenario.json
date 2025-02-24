@@ -1,0 +1,2088 @@
+[
+  {
+    "patient_id": "001",  
+    "age": 65,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Type 2 Diabetes", "Previous MI"], 
+    "current_medications": ["Aspirin", "Lisinopril", "Metformin"],  
+    "presenting_complaint": "Chest pain", 
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "moderate",
+        "duration": "30 minutes", 
+        "location": "retrosternal", 
+        "character": "crushing",
+        "associated_symptoms": ["radiating to left arm", "diaphoresis"] 
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent",
+        "exacerbating_factors": "exertion", 
+        "relieving_factors": "rest"
+      },
+      {
+        "name": "Nausea",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+       {
+        "name": "Diaphoresis",
+        "severity": "mild",
+        "duration": "intermittent",
+        "type": "cold sweat"
+      }
+    ],
+    "vital_signs": {  
+      "heart_rate": 100,
+      "blood_pressure": "150/90",
+      "temperature": 98.6,
+      "respiratory_rate": 20
+    },
+    "physical_exam": "Patient appears anxious.  No murmurs, rubs, or gallops auscultated.  Lungs clear to auscultation.", 
+    "test_results": { 
+      "ecg": "ST elevation in leads II, III, aVF",
+      "troponin": 0.8, 
+      "cbc": "WBC count elevated"
+    },
+    "differential_diagnosis": ["Myocardial Infarction", "Angina Pectoris", "Pericarditis", "Pulmonary Embolism"], 
+    "final_diagnosis": "Myocardial Infarction (STEMI)", 
+    "treatment": "Aspirin, Clopidogrel, Thrombolytic therapy", 
+    "notes": "Patient responded well to thrombolytic therapy.  Transferred to CCU for further monitoring."  
+  },
+  {
+    "patient_id": "002",
+    "age": 45,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["Oral contraceptive pills"],
+    "presenting_complaint": "Sharp chest pain",
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "severe",
+        "duration": "1 hour",
+        "location": "left-sided",
+        "character": "sharp, stabbing",
+        "associated_symptoms": ["worse with deep inspiration"]
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 90,
+      "blood_pressure": "130/80",
+      "temperature": 99.0,
+      "respiratory_rate": 18
+    },
+    "physical_exam": "Tenderness to palpation on the left side of the chest.  Normal breath sounds.",
+    "test_results": {
+      "ecg": "Normal sinus rhythm",
+      "troponin": 0.0,
+      "cxr": "Normal"
+    },
+    "differential_diagnosis": ["Musculoskeletal pain", "Pleurisy", "Pericarditis"],
+    "final_diagnosis": "Musculoskeletal pain",
+    "treatment": "Ibuprofen",
+    "notes": "Pain resolved with NSAIDs. Advised to follow up if symptoms persist."
+  },
+  {
+    "patient_id": "003",
+    "age": 35,
+    "gender": "Male",
+    "medical_history": ["Seasonal allergies"],
+    "current_medications": ["Loratadine"],
+    "presenting_complaint": "Persistent cough",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "2 weeks",
+        "type": "productive",
+        "character": "hacking",
+        "sputum_description": "clear, mucoid" 
+      },
+      {
+        "name": "Sore throat",
+        "severity": "mild",
+        "duration": "1 week",
+        "character": "scratchy"
+      },
+      {
+        "name": "Fatigue",
+        "severity": "mild",
+        "duration": "1 week"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 99.5,
+      "heart_rate": 80,
+      "blood_pressure": "120/80",
+      "respiratory_rate": 16
+    },
+    "physical_exam": "Lungs with mild wheezing.  Throat slightly erythematous.  No signs of consolidation.",
+    "test_results": {
+      "chest_xray": "Normal"
+    },
+    "differential_diagnosis": ["Acute Bronchitis", "Pneumonia", "Asthma"],
+    "final_diagnosis": "Acute Bronchitis", 
+    "treatment": "Rest, fluids, cough suppressant",
+    "notes": "Symptoms improved after 1 week."
+  },
+  {
+    "patient_id": "004",
+    "age": 60,
+    "gender": "Female",
+    "medical_history": ["COPD", "Hypertension"],
+    "current_medications": ["Albuterol inhaler", "Lisinopril"],
+    "presenting_complaint": "Worsening cough",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "severe",
+        "duration": "3 weeks",
+        "type": "productive",
+        "character": "barking",
+        "sputum_description": "yellow, thick"
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "moderate",
+        "duration": "1 week",
+        "exacerbating_factors": "exertion"
+      },
+      {
+        "name": "Wheezing",
+        "severity": "moderate",
+        "duration": "intermittent"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 98.8,
+      "heart_rate": 95,
+      "blood_pressure": "140/90",
+      "respiratory_rate": 22
+    },
+    "physical_exam": "Lungs with diffuse wheezing and rhonchi.  Accessory muscle use noted.",
+    "test_results": {
+      "chest_xray": "Hyperinflation, increased bronchial markings"
+    },
+    "differential_diagnosis": ["Acute Exacerbation of COPD", "Pneumonia"],
+    "final_diagnosis": "Acute Exacerbation of COPD",
+    "treatment": "Albuterol nebulizer, Prednisone, Antibiotics",
+    "notes": "Patient required hospitalization for management of exacerbation."
+  },
+  {
+    "patient_id": "005",
+    "age": 25,
+    "gender": "Female",
+    "medical_history": ["Seasonal allergies", "Eczema"],
+    "current_medications": ["Albuterol inhaler (PRN)", "Fluticasone inhaler (daily)"],
+    "presenting_complaint": "Wheezing and shortness of breath",
+    "symptoms": [
+      {
+        "name": "Wheezing",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "associated": "exertion, exposure to pollen", 
+        "frequency": "2-3 times per week" 
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent",
+        "associated": "exertion, exposure to pollen"
+      },
+      {
+        "name": "Chest tightness",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Cough", 
+        "severity": "mild",
+        "duration": "intermittent",
+        "type": "dry"
+      }
+    ],
+    "vital_signs": {
+      "respiratory_rate": 20,
+      "spo2": 95, 
+      "heart_rate": 90,
+      "blood_pressure": "120/80"
+    },
+    "physical_exam": "Lungs with expiratory wheezing.  No signs of respiratory distress.",
+    "test_results": {
+      "pft": { 
+        "fev1": "80% predicted",
+        "fvc": "90% predicted",
+        "fev1_fvc_ratio": "0.85"
+      },
+      "allergy_testing": "Positive for grass pollen" 
+    },
+    "differential_diagnosis": ["Asthma", "Bronchitis", "COPD"],
+    "final_diagnosis": "Asthma (Mild Persistent)", 
+    "treatment": "Albuterol inhaler (PRN), Fluticasone inhaler (daily)", 
+    "notes": "Patient education provided on asthma management and trigger avoidance." 
+  },
+  {
+    "patient_id": "006",
+    "age": 60,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "History of smoking (20 pack-years)"],
+    "current_medications": ["Lisinopril", "Albuterol inhaler (PRN)"],
+    "presenting_complaint": "Worsening shortness of breath",
+    "symptoms": [
+      {
+        "name": "Shortness of breath",
+        "severity": "severe",
+        "duration": "persistent",
+        "exacerbating_factors": "exertion, cold air"
+      },
+      {
+        "name": "Wheezing",
+        "severity": "severe",
+        "duration": "persistent"
+      },
+      {
+        "name": "Chest tightness",
+        "severity": "moderate",
+        "duration": "persistent"
+      },
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "persistent",
+        "type": "productive",
+        "sputum_description": "clear"
+      }
+    ],
+    "vital_signs": {
+      "respiratory_rate": 28,
+      "spo2": 90,
+      "heart_rate": 110,
+      "blood_pressure": "150/95"
+    },
+    "physical_exam": "Lungs with diffuse wheezing and rhonchi.  Accessory muscle use noted.  Patient in mild respiratory distress.",
+    "test_results": {
+      "pft": {
+        "fev1": "50% predicted",
+        "fvc": "60% predicted",
+        "fev1_fvc_ratio": "0.70"
+      },
+      "abg": { 
+        "ph": 7.35,
+        "paco2": 45,
+        "pao2": 60,
+        "hco3": 24
+      }
+    },
+    "differential_diagnosis": ["Asthma Exacerbation", "COPD Exacerbation", "Pneumonia"],
+    "final_diagnosis": "Asthma Exacerbation", 
+    "treatment": "Oxygen, Albuterol nebulizer, Ipratropium nebulizer, Prednisone", 
+    "notes": "Patient required hospitalization for management of acute exacerbation." 
+  },
+  {
+    "patient_id": "007",
+    "age": 30,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "vaccination_status": "Fully vaccinated (2 doses Moderna)", 
+    "presenting_complaint": "Cough and fever",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "mild",
+        "duration": "1 week",
+        "type": "dry"
+      },
+      {
+        "name": "Fever",
+        "severity": "moderate",
+        "duration": "3 days",
+        "highest_temperature": 101.5 
+      },
+      {
+        "name": "Fatigue",
+        "severity": "moderate",
+        "duration": "1 week"
+      },
+      {
+        "name": "Loss of taste or smell",
+        "severity": "partial", 
+        "duration": "4 days"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 99.0,
+      "respiratory_rate": 18,
+      "spo2": 98,
+      "heart_rate": 85,
+      "blood_pressure": "120/80"
+    },
+    "physical_exam": "Lungs clear to auscultation.  No signs of respiratory distress.",
+    "test_results": {
+      "pcr_test": "Positive"  
+    },
+    "differential_diagnosis": ["COVID-19", "Influenza", "Common Cold"],
+    "final_diagnosis": "COVID-19 (Mild)", 
+    "treatment": "Rest, fluids, supportive care",
+    "notes": "Patient recovered fully within 10 days."
+  },
+  {
+    "patient_id": "008",
+    "age": 65,
+    "gender": "Female",
+    "medical_history": ["Hypertension", "Type 2 Diabetes"],
+    "current_medications": ["Lisinopril", "Metformin"],
+    "vaccination_status": "Not vaccinated",  
+    "presenting_complaint": "Shortness of breath and cough",
+    "symptoms": [
+      {
+        "name": "Shortness of breath",
+        "severity": "severe",
+        "duration": "5 days",
+        "exacerbating_factors": "exertion"
+      },
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "5 days",
+        "type": "productive",
+        "sputum_description": "yellow"
+      },
+      {
+        "name": "Fever",
+        "severity": "high",
+        "duration": "3 days",
+        "highest_temperature": 103.2
+      },
+      {
+        "name": "Fatigue",
+        "severity": "severe",
+        "duration": "5 days"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 102.5,
+      "respiratory_rate": 25,
+      "spo2": 92,
+      "heart_rate": 110,
+      "blood_pressure": "140/90"
+    },
+    "physical_exam": "Lungs with crackles and wheezing.  Patient in mild respiratory distress.",
+    "test_results": {
+      "rapid_antigen_test": "Positive", 
+      "chest_xray": "Bilateral infiltrates" 
+    },
+    "differential_diagnosis": ["COVID-19", "Pneumonia"],
+    "final_diagnosis": "COVID-19 (Moderate)", 
+    "treatment": "Oxygen, Remdesivir, Dexamethasone", 
+    "notes": "Patient required hospitalization and supplemental oxygen."
+  },
+  {
+    "patient_id": "009",
+    "age": 28,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "vaccination_status": "Received flu vaccine this year", 
+    "presenting_complaint": "Sudden onset fever and cough",
+    "symptoms": [
+      {
+        "name": "Fever",
+        "severity": "high", 
+        "duration": "3 days",
+        "onset": "sudden",
+        "highest_temperature": 102.5 
+      },
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "5 days",
+        "type": "dry"
+      },
+      {
+        "name": "Body aches",
+        "severity": "moderate",
+        "duration": "3 days",
+        "location": "generalized" 
+      },
+      {
+        "name": "Sore throat",
+        "severity": "mild",
+        "duration": "2 days"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 101.0,
+      "respiratory_rate": 16,
+      "spo2": 99,
+      "heart_rate": 90,
+      "blood_pressure": "120/75"
+    },
+    "physical_exam": "Throat erythematous. Lungs clear to auscultation.",
+    "test_results": {
+      "rapid_flu_test": "Positive", 
+      "pcr_test": "Influenza A positive" 
+    },
+    "differential_diagnosis": ["Influenza", "COVID-19", "Strep Throat"],
+    "final_diagnosis": "Influenza A (Uncomplicated)", 
+    "treatment": "Oseltamivir, rest, fluids", 
+    "notes": "Patient recovered well."
+  },
+  {
+    "patient_id": "010",
+    "age": 70,
+    "gender": "Male",
+    "medical_history": ["COPD", "Hypertension"],
+    "current_medications": ["Albuterol inhaler", "Lisinopril"],
+    "vaccination_status": "Did not receive flu vaccine this year", 
+    "presenting_complaint": "Cough and shortness of breath",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "severe",
+        "duration": "1 week",
+        "type": "productive",
+        "sputum_description": "yellow"  
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "moderate",
+        "duration": "3 days",
+        "exacerbating_factors": "exertion"  
+      },
+      {
+        "name": "Fever",
+        "severity": "moderate",
+        "duration": "2 days",
+        "highest_temperature": 100.8
+      },
+      {
+        "name": "Fatigue",
+        "severity": "severe",
+        "duration": "1 week"
+      }
+    ],
+    "vital_signs": {
+      "temperature": 100.2,
+      "respiratory_rate": 22,
+      "spo2": 94,
+      "heart_rate": 100,
+      "blood_pressure": "140/85"
+    },
+    "physical_exam": "Lungs with crackles.  Patient in mild respiratory distress.",
+    "test_results": {
+      "rapid_flu_test": "Positive", 
+      "chest_xray": "Right lower lobe infiltrate" 
+    },
+    "differential_diagnosis": ["Influenza", "Pneumonia"],
+    "final_diagnosis": "Influenza A with Pneumonia", 
+    "treatment": "Oseltamivir, antibiotics, oxygen", 
+    "notes": "Patient required hospitalization."
+  },
+  {
+    "patient_id": "011",
+    "age": 65,
+    "gender": "Male",
+    "medical_history": ["Hypertension"],
+    "current_medications": ["Lisinopril"],
+    "smoking_history": "50 pack-years", 
+    "presenting_complaint": "Chronic cough and shortness of breath",
+    "symptoms": [
+      {
+        "name": "Chronic cough",
+        "severity": "moderate",
+        "duration": "persistent",
+        "type": "productive",
+        "sputum_description": "clear, mucoid", 
+        "frequency": "daily" 
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "moderate",
+        "duration": "progressive",
+        "exacerbating_factors": "exertion" 
+      },
+      {
+        "name": "Wheezing",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "vital_signs": {
+      "respiratory_rate": 20,
+      "spo2": 92,
+      "heart_rate": 90,
+      "blood_pressure": "130/80"
+    },
+    "physical_exam": "Lungs with decreased breath sounds and wheezing.  No signs of respiratory distress at rest.",
+    "test_results": {
+      "pft": { 
+        "fev1": "60% predicted",
+        "fvc": "75% predicted",
+        "fev1_fvc_ratio": "0.75"
+      },
+      "chest_xray": "Hyperinflation, flattened diaphragms"  
+    },
+    "differential_diagnosis": ["COPD", "Asthma", "Bronchiectasis"],
+    "final_diagnosis": "COPD GOLD II", 
+    "treatment": "Tiotropium, Albuterol inhaler (PRN)", 
+    "notes": "Patient education provided on smoking cessation and inhaler technique."
+  },
+  {
+    "patient_id": "012",
+    "age": 75,
+    "gender": "Female",
+    "medical_history": ["Hypertension", "Osteoarthritis"],
+    "current_medications": ["Amlodipine", "Ibuprofen"],
+    "smoking_history": "20 pack-years (quit 10 years ago)", 
+    "presenting_complaint": "Increasing shortness of breath",
+    "symptoms": [
+      {
+        "name": "Shortness of breath",
+        "severity": "severe",
+        "duration": "progressive",
+        "exacerbating_factors": "minimal exertion"
+      },
+      {
+        "name": "Chronic cough",
+        "severity": "moderate",
+        "duration": "persistent",
+        "type": "productive",
+        "sputum_description": "yellow, thick"
+      },
+      {
+        "name": "Wheezing",
+        "severity": "moderate",
+        "duration": "persistent"
+      }
+    ],
+    "vital_signs": {
+      "respiratory_rate": 25,
+      "spo2": 88,
+      "heart_rate": 100,
+      "blood_pressure": "150/90"
+    },
+    "physical_exam": "Lungs with decreased breath sounds, wheezing, and rhonchi.  Patient using accessory muscles.  Mild peripheral edema.",
+    "test_results": {
+      "pft": {
+        "fev1": "30% predicted",
+        "fvc": "50% predicted",
+        "fev1_fvc_ratio": "0.60"
+      },
+      "chest_ct": "Emphysema, bullous changes" 
+    },
+    "differential_diagnosis": ["COPD", "Congestive Heart Failure"],
+    "final_diagnosis": "COPD GOLD IV", 
+    "treatment": "Oxygen therapy, Tiotropium, Salmeterol, Fluticasone, Prednisone (for exacerbation)", 
+    "notes": "Patient hospitalized for acute exacerbation.  Home oxygen prescribed."
+  },
+  {
+    "patient_id": "013",
+    "age": 55,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Hyperlipidemia"],
+    "current_medications": ["Lisinopril", "Atorvastatin"],
+    "family_history": "Father with Type 2 Diabetes", 
+    "presenting_complaint": "Increased thirst and frequent urination",
+    "symptoms": [
+      {
+        "name": "Increased thirst",
+        "severity": "moderate",
+        "duration": "2 months",
+        "frequency": "frequent" 
+      },
+      {
+        "name": "Frequent urination",
+        "severity": "moderate",
+        "duration": "2 months",
+        "nocturia": "present" 
+      },
+      {
+        "name": "Fatigue",
+        "severity": "moderate",
+        "duration": "2 months"
+      },
+        {
+        "name": "Blurred vision", 
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "vital_signs": {
+      "blood_pressure": "140/90", 
+      "heart_rate": 80
+    },
+    "physical_exam": "Normal exam.", 
+    "test_results": {
+      "fbg": 140, 
+      "hba1c": 7.2 
+    },
+    "differential_diagnosis": ["Diabetes Mellitus", "Diabetes Insipidus"],
+    "final_diagnosis": "Type 2 Diabetes Mellitus", 
+    "treatment": "Metformin, lifestyle modifications", 
+    "notes": "Patient education provided on diet, exercise, and blood glucose monitoring."
+  },
+  {
+    "patient_id": "014",
+    "age": 25,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "family_history": "Mother with Type 1 Diabetes", 
+    "presenting_complaint": "Weight loss and increased urination",
+    "symptoms": [
+      {
+        "name": "Increased thirst",
+        "severity": "severe",
+        "duration": "1 month"
+      },
+      {
+        "name": "Frequent urination",
+        "severity": "severe",
+        "duration": "1 month",
+        "nocturia": "present"
+      },
+      {
+        "name": "Weight loss", 
+        "severity": "significant",
+        "duration": "1 month",
+        "amount": "10 lbs" 
+      },
+      {
+        "name": "Fatigue",
+        "severity": "severe",
+        "duration": "1 month"
+      }
+    ],
+    "vital_signs": {
+      "blood_pressure": "120/80",
+      "heart_rate": 95
+    },
+    "physical_exam": "Patient appears thin.  No other significant findings.",
+    "test_results": {
+      "fbg": 200, 
+      "hba1c": 9.0, 
+      "urine_glucose": "Positive", 
+      "urine_ketones": "Positive" 
+    },
+    "differential_diagnosis": ["Type 1 Diabetes Mellitus", "DKA"],
+    "final_diagnosis": "Type 1 Diabetes Mellitus", 
+    "treatment": "Insulin therapy, fluids",
+    "notes": "Patient admitted for DKA management."
+  },
+  {
+    "patient_id": "015",
+    "age": 60,
+    "gender": "Female",
+    "medical_history": ["Obesity", "Family history of hypertension"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Headaches",  
+    "symptoms": [
+      {
+        "name": "Headaches",
+        "severity": "mild",
+        "duration": "intermittent",
+        "location": "occipital" 
+      },
+      {
+        "name": "Dizziness",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    
+    ],
+    "vital_signs": {
+      "blood_pressure": "160/95", 
+      "heart_rate": 80
+    },
+    "physical_exam": "Normal exam.",
+    "test_results": {
+      
+    },
+    "differential_diagnosis": ["Hypertension", "Tension Headache"],
+    "final_diagnosis": "Stage II Hypertension",
+    "treatment": "Lisinopril",
+    "notes": "Patient education provided on lifestyle modifications."
+  },
+  {
+    "patient_id": "016",
+    "age": 45,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "No complaint", 
+    "symptoms": [
+      
+    ],
+    "vital_signs": {
+      "blood_pressure": "140/90", 
+      "heart_rate": 75
+    },
+    "physical_exam": "Normal exam.",
+    "test_results": {
+      
+    },
+    "differential_diagnosis": ["Hypertension"],
+    "final_diagnosis": "Stage I Hypertension", 
+    "treatment": "Lifestyle modifications", 
+    "notes": "Patient advised on lifestyle changes and follow-up blood pressure monitoring."
+  },
+  {
+    "patient_id": "017",
+    "age": 55,
+    "gender": "Female",
+    "medical_history": ["Diabetes", "Obesity"],
+    "current_medications": ["Metformin", "Lisinopril"],
+    "presenting_complaint": "Headache",
+    "symptoms": [
+      {
+        "name": "Headache",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "frontal" 
+      },
+        {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "exertional"
+      }
+    ],
+    "vital_signs": {
+      "blood_pressure": "170/100", 
+      "heart_rate": 90
+    },
+    "physical_exam": "Normal exam.",
+    "test_results": {
+      
+    },
+    "differential_diagnosis": ["Hypertension", "Tension Headache"],
+    "final_diagnosis": "Stage II Hypertension", 
+    "treatment": "Amlodipine, Lisinopril", 
+    "notes": "Increased medication dosage. Patient education provided on lifestyle modifications."
+  },
+  {
+    "patient_id": "018",
+    "age": 70,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Coronary Artery Disease"],
+    "current_medications": ["Aspirin", "Atorvastatin", "Lisinopril"],
+    "presenting_complaint": "Shortness of breath and swelling in legs",
+    "symptoms": [
+      {
+        "name": "Shortness of breath",
+        "severity": "moderate",
+        "duration": "progressive",
+        "associated": "exertion",
+        "dyspnea_on_exertion": "present" 
+      },
+      {
+        "name": "Fatigue",
+        "severity": "moderate",
+        "duration": "persistent"
+      },
+      {
+        "name": "Swelling in legs",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "bilateral" 
+      },
+      {
+        "name": "Cough",
+        "severity": "mild",
+        "duration": "persistent",
+        "type": "productive",
+        "sputum_description": "white" 
+      },
+      {
+        "name": "Orthopnea", 
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Paroxysmal nocturnal dyspnea", 
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+
+    ],
+    "vital_signs": {
+      "heart_rate": 90,
+      "blood_pressure": "150/90",
+      "respiratory_rate": 22,
+      "spo2": 95
+    },
+    "physical_exam": "Lungs with rales at the bases.  Jugular venous distention present.  Lower extremity edema.",
+    "test_results": {
+      "echocardiogram": { 
+        "ef": "40%", 
+        "diastolic_dysfunction": "Grade II" 
+      },
+      "bnp": 500, 
+      "chest_xray": "Cardiomegaly, pulmonary congestion" 
+    },
+    "differential_diagnosis": ["Heart Failure", "COPD", "Pulmonary Embolism"],
+    "final_diagnosis": "Heart Failure with reduced EF (HFrEF) - NYHA Class III", 
+    "treatment": "Diuretics, ACE inhibitors, Beta-blockers", 
+    "notes": "Patient education provided on diet, fluid restriction, and medication adherence."
+  },
+  {
+    "patient_id": "019",
+    "age": 80,
+    "gender": "Female",
+    "medical_history": ["Hypertension", "Atrial Fibrillation"],
+    "current_medications": ["Aspirin", "Digoxin", "Warfarin"],
+    "presenting_complaint": "Worsening shortness of breath",
+    "symptoms": [
+      {
+        "name": "Shortness of breath",
+        "severity": "severe",
+        "duration": "progressive",
+        "associated": "minimal exertion" 
+      },
+      {
+        "name": "Fatigue",
+        "severity": "severe",
+        "duration": "persistent"
+      },
+      {
+        "name": "Swelling in legs",
+        "severity": "severe",
+        "duration": "persistent",
+        "location": "bilateral, extending to abdomen" 
+      },
+      {
+        "name": "Weight gain", 
+        "amount": "10 lbs in 1 week"
+      }
+    ],
+    "vital_signs": {
+      "heart_rate": 110,
+      "blood_pressure": "160/100",
+      "respiratory_rate": 28,
+      "spo2": 90
+    },
+    "physical_exam": "Lungs with diffuse crackles.  Marked jugular venous distention.  Significant lower extremity edema.  S3 gallop present.",
+    "test_results": {
+      "echocardiogram": {
+        "ef": "60%",
+        "diastolic_dysfunction": "Grade III" 
+      },
+      "bnp": 1200, 
+      "chest_xray": "Pulmonary edema, cardiomegaly" 
+    },
+    "differential_diagnosis": ["Heart Failure", "Pneumonia", "Acute Respiratory Distress Syndrome (ARDS)"],
+    "final_diagnosis": "Heart Failure with preserved EF (HFpEF) - NYHA Class IV",
+    "treatment": "Oxygen therapy, Diuretics, Vasodilators", 
+    "notes": "Patient admitted to ICU for management of acute decompensated heart failure."
+  },
+  {
+    "patient_id": "020",
+    "age": 75,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Atrial Fibrillation"],
+    "current_medications": ["Aspirin", "Warfarin"],
+    "presenting_complaint": "Sudden weakness on the right side",
+    "symptoms": [
+      {
+        "name": "Sudden numbness or weakness",
+        "severity": "severe",
+        "duration": "sudden onset",
+        "location": "right arm and leg"
+      },
+      {
+        "name": "Difficulty speaking",
+        "severity": "moderate",
+        "duration": "sudden onset",
+        "type": "slurred speech"
+      }
+    ],
+    "vital_signs": {
+      "blood_pressure": "180/110",
+      "heart_rate": 100
+    },
+    "physical_exam": "Right-sided weakness (motor strength 2/5).  Slurred speech.  Facial droop on the right side.",
+    "test_results": {
+      "ct_scan_brain": "Left-sided ischemic stroke"
+    },
+    "differential_diagnosis": ["Stroke", "Transient Ischemic Attack"],
+    "final_diagnosis": "Ischemic Stroke",
+    "treatment": "Thrombolytic therapy (tPA)",
+    "notes": "Patient received tPA within the window period.  Neurological status monitored closely."
+  },
+  {
+    "patient_id": "021",
+    "age": 60,
+    "gender": "Female",
+    "medical_history": ["Diabetes", "Smoking"],
+    "current_medications": ["Metformin"],
+    "presenting_complaint": "Sudden severe headache",
+    "symptoms": [
+      {
+        "name": "Severe headache",
+        "severity": "severe",
+        "duration": "sudden onset",
+        "location": "occipital"
+      },
+      {
+        "name": "Nausea and vomiting",
+        "severity": "moderate",
+        "duration": "sudden onset"
+      },
+      {
+        "name": "Neck stiffness",
+        "severity": "mild",
+        "duration": "sudden onset"
+      }
+    ],
+    "vital_signs": {
+      "blood_pressure": "160/90",
+      "heart_rate": 90
+    },
+    "physical_exam": "Neck stiffness present.  No focal neurological deficits.",
+    "test_results": {
+      "ct_scan_brain": "Subarachnoid hemorrhage"
+    },
+    "differential_diagnosis": ["Stroke", "Subarachnoid Hemorrhage", "Meningitis"],
+    "final_diagnosis": "Subarachnoid Hemorrhage",
+    "treatment": "Supportive care, blood pressure control",
+    "notes": "Patient admitted to the ICU."
+  },
+  {
+    "patient_id": "022",
+    "age": 55,
+    "gender": "Male",
+    "medical_history": ["Hypertension"],
+    "current_medications": ["Lisinopril"],
+    "presenting_complaint": "Transient weakness on the left side",
+    "symptoms": [
+      {
+        "name": "Sudden numbness or weakness",
+        "severity": "mild",
+        "duration": "brief",
+        "location": "left arm"
+      }
+    ],
+    "vital_signs": {
+      "blood_pressure": "150/90",
+      "heart_rate": 80
+    },
+    "physical_exam": "Left arm weakness resolved.  No other neurological deficits.",
+    "test_results": {
+      "mri_brain": "No acute stroke seen"
+    },
+    "differential_diagnosis": ["Transient Ischemic Attack", "Migraine"],
+    "final_diagnosis": "Transient Ischemic Attack (TIA)",
+    "treatment": "Aspirin",
+    "notes": "Patient education provided on stroke risk factors and symptoms."
+  },
+  {
+    "patient_id": "023",
+    "age": 45,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["Ibuprofen (for occasional back pain)"],
+    "presenting_complaint": "Burning epigastric pain",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "location": "epigastric",
+        "character": "burning",
+        "aggravating_factors": "eating",
+        "relieving_factors": "antacids"
+      },
+      {
+        "name": "Bloating",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Nausea",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Heartburn",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Epigastric tenderness to palpation. No other significant findings.",
+    "test_results": {
+      "h_pylori_test": "Positive",
+      "endoscopy": "Duodenal ulcer"
+    },
+    "differential_diagnosis": ["Peptic Ulcer Disease", "Gastroesophageal Reflux Disease", "Gastritis"],
+    "final_diagnosis": "Peptic Ulcer Disease (Duodenal Ulcer)",
+    "treatment": "Triple therapy (PPI, clarithromycin, amoxicillin)",
+    "notes": "Patient advised to avoid NSAIDs and alcohol."
+  },
+  {
+    "patient_id": "024",
+    "age": 60,
+    "gender": "Female",
+    "medical_history": ["Osteoarthritis"],
+    "current_medications": ["Naproxen"],
+    "presenting_complaint": "Epigastric pain and nausea",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "severe",
+        "duration": "intermittent",
+        "location": "epigastric",
+        "character": "gnawing",
+        "aggravating_factors": "eating",
+        "relieving_factors": "antacids"
+      },
+      {
+        "name": "Nausea",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "associated_symptoms": "vomiting"
+      },
+      {
+        "name": "Bloating",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Epigastric tenderness.  Guaiac positive stool.",
+    "test_results": {
+      "h_pylori_test": "Negative",
+      "endoscopy": "Gastric ulcer"
+    },
+    "differential_diagnosis": ["Peptic Ulcer Disease", "Gastric Cancer"],
+    "final_diagnosis": "Peptic Ulcer Disease (Gastric Ulcer)",
+    "treatment": "PPI, Misoprostol",
+    "notes": "Patient advised to discontinue Naproxen.  Follow-up endoscopy planned."
+  },
+  {
+    "patient_id": "025",
+    "age": 25,
+    "gender": "Female",
+    "medical_history": ["Seasonal allergies"],
+    "current_medications": ["Loratadine (PRN)"],
+    "presenting_complaint": "Runny nose and sore throat",
+    "symptoms": [
+      {
+        "name": "Runny nose",
+        "severity": "mild",
+        "duration": "5 days",
+        "type": "clear discharge"
+      },
+      {
+        "name": "Sore throat",
+        "severity": "mild",
+        "duration": "3 days"
+      },
+      {
+        "name": "Cough",
+        "severity": "mild",
+        "duration": "5 days",
+        "type": "dry"
+      },
+      {
+        "name": "Fatigue",
+        "severity": "mild",
+        "duration": "3 days"
+      }
+    ],
+    "physical_exam": "Nasal congestion. Throat slightly erythematous. Lungs clear.",
+    "differential_diagnosis": ["Common Cold", "Allergic Rhinitis"],
+    "final_diagnosis": "Common Cold",
+    "treatment": "Rest, fluids, over-the-counter decongestants",
+    "notes": "Symptoms resolved within a week."
+  },
+  {
+    "patient_id": "026",
+    "age": 35,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Cough and congestion",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "7 days",
+        "type": "productive",
+        "sputum_description": "yellow"
+      },
+      {
+        "name": "Nasal congestion",
+        "severity": "moderate",
+        "duration": "7 days",
+        "type": "thick, yellow discharge"
+      },
+      {
+        "name": "Sore throat",
+        "severity": "mild",
+        "duration": "3 days"
+      },
+        {
+        "name": "Fever",
+        "severity": "mild",
+        "duration": "2 days",
+        "highest_temperature": 99.5
+      }
+    ],
+    "physical_exam": "Nasal congestion. Throat slightly erythematous. Lungs with mild rhonchi.",
+    "differential_diagnosis": ["Common Cold", "Influenza", "Bronchitis"],
+    "final_diagnosis": "Common Cold",
+    "treatment": "Rest, fluids, over-the-counter medications",
+    "notes": "Symptoms gradually improved.  Cough lingered for a few more days."
+  },
+  {
+    "patient_id": "027",
+    "age": 25,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Painful urination",
+    "symptoms": [
+      {
+        "name": "Painful urination",
+        "severity": "moderate",
+        "duration": "3 days",
+        "description": "burning"
+      },
+      {
+        "name": "Frequent urination",
+        "severity": "mild",
+        "duration": "3 days"
+      },
+      {
+        "name": "Lower abdominal pain",
+        "severity": "mild",
+        "duration": "3 days",
+        "location": "suprapubic"
+      },
+      {
+        "name": "Cloudy urine",
+        "severity": "mild",
+        "duration": "3 days"
+      }
+    ],
+    "physical_exam": "Suprapubic tenderness. No other significant findings.",
+    "test_results": {
+      "urine_analysis": {
+        "leukocyte_esterase": "Positive",
+        "nitrites": "Positive",
+        "wbc_count": "10-20/hpf"
+      },
+      "urine_culture": "E. coli"
+    },
+    "differential_diagnosis": ["Urinary Tract Infection", "Cystitis"],
+    "final_diagnosis": "Urinary Tract Infection (Cystitis)",
+    "treatment": "Ciprofloxacin",
+    "notes": "Patient education provided on hygiene and hydration."
+  },
+  {
+    "patient_id": "028",
+    "age": 60,
+    "gender": "Male",
+    "medical_history": ["Diabetes", "Benign Prostatic Hyperplasia (BPH)"],
+    "current_medications": ["Metformin", "Tamsulosin"],
+    "presenting_complaint": "Frequent and painful urination",
+    "symptoms": [
+      {
+        "name": "Painful urination",
+        "severity": "moderate",
+        "duration": "5 days",
+        "description": "burning"
+      },
+      {
+        "name": "Frequent urination",
+        "severity": "moderate",
+        "duration": "5 days",
+        "nocturia": "present"
+      },
+      {
+        "name": "Lower abdominal pain",
+        "severity": "mild",
+        "duration": "5 days",
+        "location": "suprapubic"
+      },
+      {
+        "name": "Cloudy urine",
+        "severity": "mild",
+        "duration": "5 days"
+      },
+      {
+        "name": "Fever",
+        "severity": "mild",
+        "duration": "2 days",
+        "highest_temperature": 100.4
+      }
+    ],
+    "physical_exam": "Suprapubic tenderness. Enlarged prostate on rectal exam.",
+    "test_results": {
+      "urine_analysis": {
+        "leukocyte_esterase": "Positive",
+        "nitrites": "Positive",
+        "wbc_count": ">50/hpf"
+      },
+      "urine_culture": "E. coli"
+    },
+    "differential_diagnosis": ["Urinary Tract Infection", "Prostatitis"],
+    "final_diagnosis": "Urinary Tract Infection (Pyelonephritis)",
+    "treatment": "Ceftriaxone (IV), then Ciprofloxacin (oral)",
+    "notes": "Patient admitted for IV antibiotics.  Urology consult planned for BPH management."
+  },
+  {
+    "patient_id": "029",
+    "age": 40,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Lower back pain",
+    "symptoms": [
+      {
+        "name": "Lower back pain",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "location": "lumbar region",
+        "radiation": "to the right buttock",
+        "aggravating_factors": "lifting, bending",
+        "relieving_factors": "rest, heat"
+      },
+      {
+        "name": "Muscle stiffness",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Limited range of motion",
+        "severity": "moderate",
+        "duration": "persistent",
+        "description": "difficulty bending forward"
+      }
+    ],
+    "physical_exam": "Lumbar paraspinal muscle spasm.  Limited range of motion in the lumbar spine.  No neurological deficits.",
+    "differential_diagnosis": ["Muscle Strain", "Herniated Disc"],
+    "final_diagnosis": "Lumbar Muscle Strain",
+    "treatment": "Rest, NSAIDs, physical therapy",
+    "notes": "Patient advised on proper lifting techniques and posture."
+  },
+  {
+    "patient_id": "030",
+    "age": 60,
+    "gender": "Female",
+    "medical_history": ["Osteoarthritis"],
+    "current_medications": ["Ibuprofen (PRN)"],
+    "presenting_complaint": "Chronic lower back pain",
+    "symptoms": [
+      {
+        "name": "Lower back pain",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "lumbar region",
+        "radiation": "to the legs",
+        "aggravating_factors": "activity, prolonged standing",
+        "relieving_factors": "rest"
+      },
+      {
+        "name": "Muscle stiffness",
+        "severity": "moderate",
+        "duration": "persistent"
+      },
+      {
+        "name": "Limited range of motion",
+        "severity": "severe",
+        "duration": "persistent",
+        "description": "difficulty bending and twisting"
+      }
+    ],
+    "physical_exam": "Lumbar spine tenderness.  Decreased range of motion in the lumbar spine.  No neurological deficits.",
+    "test_results": {
+      "xray_lumbar_spine": "Degenerative disc disease, facet joint arthritis"
+    },
+    "differential_diagnosis": ["Osteoarthritis", "Herniated Disc", "Spinal Stenosis"],
+    "final_diagnosis": "Lumbar Osteoarthritis",
+    "treatment": "Physical therapy, pain management, intra-articular injections (if indicated)",
+    "notes": "Patient education provided on exercise and weight management."
+  },
+  {
+    "patient_id": "031",
+    "age": 30,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Severe headache",
+    "symptoms": [
+      {
+        "name": "Severe headache",
+        "severity": "severe",
+        "duration": "24 hours",
+        "location": "right-sided",
+        "character": "throbbing",
+        "associated_symptoms": "nausea, vomiting"
+      },
+      {
+        "name": "Nausea",
+        "severity": "moderate",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Sensitivity to light",
+        "severity": "moderate",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Visual disturbances",
+        "severity": "moderate",
+        "duration": "1 hour",
+        "type": "aura (flashing lights)"
+      }
+    ],
+    "physical_exam": "Normal exam.",
+    "differential_diagnosis": ["Migraine", "Tension Headache"],
+    "final_diagnosis": "Migraine with Aura",
+    "treatment": "Triptans, NSAIDs",
+    "notes": "Patient advised to avoid triggers (stress, certain foods)."
+  },
+  {
+    "patient_id": "032",
+    "age": 40,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Headache",
+    "symptoms": [
+      {
+        "name": "Severe headache",
+        "severity": "severe",
+        "duration": "12 hours",
+        "location": "left-sided",
+        "character": "throbbing",
+        "associated_symptoms": "nausea"
+      },
+      {
+        "name": "Nausea",
+        "severity": "moderate",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Sensitivity to light",
+        "severity": "moderate",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Normal exam.",
+    "differential_diagnosis": ["Migraine", "Cluster Headache"],
+    "final_diagnosis": "Migraine without Aura",
+    "treatment": "Triptans, NSAIDs",
+    "notes": "Patient education provided on migraine management."
+  },
+  {
+    "patient_id": "033",
+    "age": 35,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Constipation",
+    "symptoms": [
+      {
+        "name": "Infrequent bowel movements",
+        "severity": "mild",
+        "duration": "2 weeks",
+        "frequency": "less than 3 times per week"
+      },
+      {
+        "name": "Abdominal bloating",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Straining during defecation",
+        "severity": "moderate",
+        "duration": "intermittent"
+      },
+        {
+        "name": "Hard stools",
+        "severity": "moderate",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Normal abdominal exam. No palpable masses.",
+    "differential_diagnosis": ["Constipation", "Irritable Bowel Syndrome"],
+    "final_diagnosis": "Functional Constipation",
+    "treatment": "Increased fiber intake, increased fluid intake, regular exercise",
+    "notes": "Patient education provided on diet and lifestyle modifications."
+  },
+  {
+    "patient_id": "034",
+    "age": 60,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Type 2 Diabetes"],
+    "current_medications": ["Metformin", "Lisinopril"],
+    "presenting_complaint": "Change in bowel habits",
+    "symptoms": [
+      {
+        "name": "Infrequent bowel movements",
+        "severity": "moderate",
+        "duration": "3 months",
+        "frequency": "once or twice a week"
+      },
+      {
+        "name": "Abdominal bloating",
+        "severity": "moderate",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Straining during defecation",
+        "severity": "severe",
+        "duration": "intermittent"
+      },
+        {
+        "name": "Blood in stool",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+        {
+        "name": "Narrow stools",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Normal abdominal exam. Rectal exam with no palpable masses.",
+    "test_results": {
+      "colonoscopy": "No polyps or masses found."
+    },
+    "differential_diagnosis": ["Constipation", "Irritable Bowel Syndrome", "Colorectal Cancer"],
+    "final_diagnosis": "Chronic Constipation",
+    "treatment": "Increased fiber intake, increased fluid intake, regular exercise, stool softeners",
+    "notes": "Patient advised to follow up if symptoms worsen."
+  },
+  {
+    "patient_id": "035",
+    "age": 50,
+    "gender": "Female",
+    "medical_history": ["Hypothyroidism"],
+    "current_medications": ["Levothyroxine"],
+    "presenting_complaint": "Fatigue and weight gain",
+    "symptoms": [
+      {
+        "name": "Fatigue",
+        "severity": "moderate",
+        "duration": "persistent"
+      },
+      {
+        "name": "Weight gain",
+        "severity": "mild",
+        "duration": "gradual",
+        "amount": "10 lbs in 3 months"
+      },
+      {
+        "name": "Constipation",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+      {
+        "name": "Cold intolerance",
+        "severity": "mild",
+        "duration": "intermittent"
+      },
+       {
+        "name": "Dry skin",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Normal exam.  Dry skin noted.",
+    "test_results": {
+      "tsh": 7.5 
+    },
+    "differential_diagnosis": ["Hypothyroidism", "Depression"],
+    "final_diagnosis": "Hypothyroidism",
+    "treatment": "Levothyroxine dose adjustment",
+    "notes": "Patient education provided on medication adherence and monitoring."
+  },
+  {
+    "patient_id": "036",
+    "age": 25,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Anxiety and palpitations",
+    "symptoms": [
+      {
+        "name": "Anxiety",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "description": "episodes of worry and restlessness"
+      },
+      {
+        "name": "Palpitations",
+        "severity": "mild",
+        "duration": "intermittent",
+        "description": "feeling of rapid heartbeat"
+      },
+      {
+        "name": "Tremor",
+        "severity": "mild",
+        "duration": "intermittent",
+        "location": "hands"
+      },
+       {
+        "name": "Sweating",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Normal exam. Mild tremor noted.",
+    "differential_diagnosis": ["Anxiety Disorder", "Hyperthyroidism"],
+    "final_diagnosis": "Generalized Anxiety Disorder", 
+    "treatment": "Therapy, medication (if needed)",
+    "notes": "Patient referred for therapy.  Discussion about lifestyle changes."
+  },
+  {
+    "patient_id": "037",
+    "age": 35,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Right knee pain",
+    "symptoms": [
+      {
+        "name": "Knee pain",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "location": "right knee",
+        "aggravating_factors": "walking, stairs",
+        "relieving_factors": "rest"
+      },
+      {
+        "name": "Swelling",
+        "severity": "mild",
+        "duration": "intermittent",
+        "location": "right knee"
+      },
+      {
+        "name": "Stiffness",
+        "severity": "mild",
+        "duration": "intermittent",
+        "location": "right knee"
+      }
+    ],
+    "physical_exam": "Right knee with mild swelling and tenderness.  Limited range of motion.",
+    "differential_diagnosis": ["Knee Osteoarthritis", "Meniscal Tear"],
+    "final_diagnosis": "Knee Osteoarthritis",
+    "treatment": "Physical therapy, NSAIDs",
+    "notes": "Patient education provided on exercise and weight management."
+  },
+  {
+    "patient_id": "038",
+    "age": 65,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Type 2 Diabetes"],
+    "current_medications": ["Metformin", "Lisinopril"],
+    "presenting_complaint": "Foot pain",
+    "symptoms": [
+      {
+        "name": "Foot pain",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "right foot",
+        "description": "burning sensation"
+      },
+      {
+        "name": "Numbness",
+        "severity": "mild",
+        "duration": "intermittent",
+        "location": "right foot"
+      },
+      {
+        "name": "Tingling",
+        "severity": "mild",
+        "duration": "intermittent",
+        "location": "right foot"
+      }
+    ],
+    "physical_exam": "Decreased sensation in the right foot.  Normal pulses.",
+    "differential_diagnosis": ["Diabetic Neuropathy", "Peripheral Vascular Disease"],
+    "final_diagnosis": "Diabetic Neuropathy",
+    "treatment": "Gabapentin, foot care education",
+    "notes": "Patient advised on blood glucose control and regular foot exams."
+  },
+  {
+    "patient_id": "039",
+    "age": 20,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Abdominal pain",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "severe",
+        "duration": "intermittent",
+        "location": "right lower quadrant",
+        "description": "sharp, colicky"
+      },
+      {
+        "name": "Nausea",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "associated_symptoms": "vomiting"
+      },
+      {
+        "name": "Loss of appetite",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Right lower quadrant tenderness, guarding, and rebound tenderness.",
+    "test_results": {
+      "cbc": {
+        "wbc_count": 15000
+      },
+      "ct_abdomen_pelvis": "Appendicitis"
+    },
+    "differential_diagnosis": ["Appendicitis", "Ovarian Cyst"],
+    "final_diagnosis": "Acute Appendicitis",
+    "treatment": "Appendectomy",
+    "notes": "Patient taken to surgery."
+  },
+  {
+    "patient_id": "040",
+    "age": 45,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Chest pain",
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "severe",
+        "duration": "10 minutes",
+        "location": "central chest",
+        "description": "pressure-like"
+      },
+      {
+        "name": "Sweating",
+        "severity": "mild",
+        "duration": "intermittent",
+        "type": "cold sweat"
+      },
+       {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "vital_signs": {
+      "ecg": "Normal sinus rhythm"
+    },
+    "physical_exam": "Normal exam.",
+    "differential_diagnosis": ["Angina", "Myocardial Infarction"],
+    "final_diagnosis": "Angina Pectoris",
+    "treatment": "Nitroglycerin",
+    "notes": "Patient education provided on lifestyle modifications."
+  },
+  {
+    "patient_id": "041",
+    "age": 60,
+    "gender": "Female",
+    "medical_history": ["Osteoarthritis"],
+    "current_medications": ["Ibuprofen (PRN)"],
+    "presenting_complaint": "Hip pain",
+    "symptoms": [
+      {
+        "name": "Hip pain",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "right hip",
+        "aggravating_factors": "walking, weight-bearing",
+        "relieving_factors": "rest"
+      },
+      {
+        "name": "Stiffness",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "right hip"
+      },
+      {
+        "name": "Limited range of motion",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "right hip"
+      }
+    ],
+    "physical_exam": "Right hip with decreased range of motion and tenderness.",
+    "differential_diagnosis": ["Hip Osteoarthritis", "Trochanteric Bursitis"],
+    "final_diagnosis": "Hip Osteoarthritis",
+    "treatment": "Physical therapy, NSAIDs",
+    "notes": "Patient education provided on exercise and weight management."
+  },
+  {
+    "patient_id": "042",
+    "age": 25,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Sore throat",
+    "symptoms": [
+      {
+        "name": "Sore throat",
+        "severity": "moderate",
+        "duration": "3 days",
+        "description": "scratchy"
+      },
+      {
+        "name": "Fever",
+        "severity": "mild",
+        "duration": "2 days",
+        "highest_temperature": 100.2
+      },
+      {
+        "name": "Swollen lymph nodes",
+        "severity": "mild",
+        "duration": "3 days",
+        "location": "neck"
+      }
+    ],
+    "physical_exam": "Throat erythematous with exudate.  Swollen tonsils.  Tender cervical lymph nodes.",
+    "differential_diagnosis": ["Strep Throat", "Viral Pharyngitis"],
+    "final_diagnosis": "Strep Throat",
+    "treatment": "Penicillin",
+    "notes": "Patient education provided on completing the antibiotic course."
+  },
+  {
+    "patient_id": "043",
+    "age": 30,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Abdominal pain",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "location": "lower abdomen",
+        "description": "cramping"
+      },
+      {
+        "name": "Diarrhea",
+        "severity": "moderate",
+        "duration": "intermittent",
+        "description": "watery stools"
+      },
+      {
+        "name": "Nausea",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Abdomen tender to palpation.  No rebound tenderness or guarding.",
+    "differential_diagnosis": ["Gastroenteritis", "Irritable Bowel Syndrome"],
+    "final_diagnosis": "Viral Gastroenteritis",
+    "treatment": "Supportive care (fluids, rest)",
+    "notes": "Patient advised on diet and hygiene."
+  },
+  {
+    "patient_id": "044",
+    "age": 55,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Type 2 Diabetes"],
+    "current_medications": ["Metformin", "Lisinopril"],
+    "presenting_complaint": "Chest pain",
+    "symptoms": [
+      {
+        "name": "Chest pain",
+        "severity": "moderate",
+        "duration": "20 minutes",
+        "location": "central chest",
+        "description": "pressure-like",
+        "radiation": "to the left arm"
+      },
+      {
+        "name": "Sweating",
+        "severity": "mild",
+        "duration": "intermittent",
+        "type": "cold sweat"
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "vital_signs": {
+      "ecg": "ST elevation in leads II, III, aVF"
+    },
+    "physical_exam": "Normal exam.",
+    "differential_diagnosis": ["Myocardial Infarction", "Angina"],
+    "final_diagnosis": "Myocardial Infarction (STEMI)",
+    "treatment": "Thrombolytic therapy (tPA), Aspirin, Clopidogrel",
+    "notes": "Patient transferred to the cardiac care unit."
+  },
+  {
+    "patient_id": "045",
+    "age": 30,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Headache",
+    "symptoms": [
+      {
+        "name": "Headache",
+        "severity": "severe",
+        "duration": "8 hours",
+        "location": "right-sided",
+        "description": "throbbing",
+        "associated_symptoms": "nausea, sensitivity to light"
+      }
+    ],
+    "physical_exam": "Normal exam.",
+    "differential_diagnosis": ["Migraine", "Tension Headache"],
+    "final_diagnosis": "Migraine without aura",
+    "treatment": "Ibuprofen, rest",
+    "notes": "Patient advised to avoid migraine triggers."
+  },
+  {
+    "patient_id": "046",
+    "age": 25,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Cough",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "1 week",
+        "type": "productive",
+        "sputum_description": "green"
+      },
+      {
+        "name": "Fever",
+        "severity": "mild",
+        "duration": "3 days",
+        "highest_temperature": 100.5
+      },
+      {
+        "name": "Chest congestion",
+        "severity": "moderate",
+        "duration": "1 week"
+      }
+    ],
+    "physical_exam": "Lungs with rhonchi.",
+    "differential_diagnosis": ["Bronchitis", "Pneumonia"],
+    "final_diagnosis": "Acute Bronchitis",
+    "treatment": "Antibiotics, cough syrup",
+    "notes": "Patient advised to rest and drink plenty of fluids."
+  },
+  {
+    "patient_id": "047",
+    "age": 70,
+    "gender": "Female",
+    "medical_history": ["Hypertension", "Osteoporosis"],
+    "current_medications": ["Lisinopril", "Calcium", "Vitamin D"],
+    "presenting_complaint": "Wrist pain",
+    "symptoms": [
+      {
+        "name": "Wrist pain",
+        "severity": "severe",
+        "duration": "sudden onset",
+        "location": "right wrist",
+        "description": "sharp pain"
+      },
+      {
+        "name": "Swelling",
+        "severity": "moderate",
+        "duration": "sudden onset",
+        "location": "right wrist"
+      },
+      {
+        "name": "Deformity",
+        "severity": "present",
+        "duration": "sudden onset",
+        "location": "right wrist"
+      }
+    ],
+    "physical_exam": "Right wrist with obvious deformity, swelling, and tenderness.  Limited range of motion.",
+    "test_results": {
+      "xray_wrist": "Distal radius fracture"
+    },
+    "differential_diagnosis": ["Colles' Fracture", "Scaphoid Fracture"],
+    "final_diagnosis": "Distal Radius Fracture (Colles' Fracture)",
+    "treatment": "Closed reduction and casting",
+    "notes": "Patient referred to orthopedics for follow-up."
+  },
+  {
+    "patient_id": "048",
+    "age": 40,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Rash",
+    "symptoms": [
+      {
+        "name": "Rash",
+        "severity": "mild",
+        "duration": "3 days",
+        "location": "trunk, arms, legs",
+        "description": "red, itchy bumps"
+      },
+      {
+        "name": "Fever",
+        "severity": "mild",
+        "duration": "2 days",
+        "highest_temperature": 99.8
+      }
+    ],
+    "physical_exam": "Widespread erythematous papular rash.  No other significant findings.",
+    "differential_diagnosis": ["Viral Exanthem", "Allergic Reaction"],
+    "final_diagnosis": "Viral Exanthem (possibly Varicella)",
+    "treatment": "Supportive care (antihistamines for itching)",
+    "notes": "Patient advised to stay home until rash resolves to prevent spread."
+  },
+  {
+    "patient_id": "049",
+    "age": 28,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Ear pain",
+    "symptoms": [
+      {
+        "name": "Ear pain",
+        "severity": "moderate",
+        "duration": "2 days",
+        "location": "right ear"
+      },
+      {
+        "name": "Fever",
+        "severity": "mild",
+        "duration": "1 day",
+        "highest_temperature": 100.5
+      },
+      {
+        "name": "Hearing loss",
+        "severity": "mild",
+        "duration": "2 days",
+        "location": "right ear"
+      }
+    ],
+    "physical_exam": "Right ear with erythema and bulging tympanic membrane.",
+    "differential_diagnosis": ["Otitis Media", "Otitis Externa"],
+    "final_diagnosis": "Acute Otitis Media",
+    "treatment": "Amoxicillin",
+    "notes": "Patient advised to follow up if symptoms worsen."
+  },
+  {
+    "patient_id": "050",
+    "age": 18,
+    "gender": "Male",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Cough and shortness of breath",
+    "symptoms": [
+      {
+        "name": "Cough",
+        "severity": "moderate",
+        "duration": "2 weeks",
+        "type": "dry"
+      },
+      {
+        "name": "Shortness of breath",
+        "severity": "mild",
+        "duration": "2 weeks",
+        "exacerbating_factors": "exertion"
+      },
+      {
+        "name": "Wheezing",
+        "severity": "mild",
+        "duration": "intermittent"
+      }
+    ],
+    "physical_exam": "Lungs with mild wheezing.  No other significant findings.",
+    "test_results": {
+      "spirometry": {
+        "fev1": "70% predicted",
+        "fvc": "85% predicted",
+        "fev1_fvc_ratio": "0.80"
+      }
+    },
+    "differential_diagnosis": ["Asthma", "Bronchitis"],
+    "final_diagnosis": "Asthma",
+    "treatment": "Albuterol inhaler (PRN)",
+    "notes": "Patient education provided on asthma triggers and management."
+  },
+  {
+    "patient_id": "051",
+    "age": 45,
+    "gender": "Female",
+    "medical_history": ["None"],
+    "current_medications": ["None"],
+    "presenting_complaint": "Fatigue and joint pain",
+    "symptoms": [
+      {
+        "name": "Fatigue",
+        "severity": "moderate",
+        "duration": "persistent"
+      },
+      {
+        "name": "Joint pain",
+        "severity": "moderate",
+        "duration": "persistent",
+        "location": "multiple joints (hands, wrists, knees)"
+      },
+      {
+        "name": "Morning stiffness",
+        "severity": "mild",
+        "duration": "persistent"
+      }
+    ],
+    "physical_exam": "Multiple joints with tenderness and mild swelling.  No other significant findings.",
+    "test_results": {
+      "rheumatoid_factor": "Positive"
+    },
+    "differential_diagnosis": ["Rheumatoid Arthritis", "Osteoarthritis"],
+    "final_diagnosis": "Rheumatoid Arthritis",
+    "treatment": "Methotrexate, NSAIDs",
+    "notes": "Patient referred to rheumatology for further management."
+  },
+  {
+    "patient_id": "052",
+    "age": 60,
+    "gender": "Male",
+    "medical_history": ["Hypertension", "Hyperlipidemia"],
+    "current_medications": ["Lisinopril", "Atorvastatin"],
+    "presenting_complaint": "Abdominal pain",
+    "symptoms": [
+      {
+        "name": "Abdominal pain",
+        "severity": "severe",
+        "duration": "sudden onset",
+        "location": "left lower quadrant",
+        "description": "sharp, stabbing"
+      },
+      {
+        "name": "Constipation",
+        "severity": "moderate",
+        "duration": "persistent"
+      },
+      {
+        "name": "Fever",
+        "severity": "mild",
+        "duration": "1 day",
+        "highest_temperature": 100.0
+      }
+    ],
+    "physical_exam": "Left lower quadrant tenderness.  No rebound tenderness or guarding.",
+    "test_results": {
+      "ct_abdomen_pelvis": "Diverticulitis"
+    },
+    "differential_diagnosis": ["Diverticulitis", "Irritable Bowel Syndrome"],
+    "final_diagnosis": "Acute Diverticulitis",
+    "treatment": "Antibiotics, clear liquid diet",
+    "notes": "Patient advised to follow up with gastroenterology."
+  }
+]

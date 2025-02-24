@@ -1,0 +1,968 @@
+[
+  [
+    {
+      "patient_id": "001_1",
+      "final_diagnosis": "Acute ST-elevation myocardial infarction (STEMI)"
+    },
+    {
+      "patient_id": "001_2",
+      "final_diagnosis": "Acute ST-elevation myocardial infarction (STEMI)"
+    },
+    {
+      "patient_id": "001_3",
+      "final_diagnosis": "Acute ST-elevation myocardial infarction (STEMI)"
+    },
+    {
+      "patient_id": "001_4",
+      "final_diagnosis": "Acute ST-elevation myocardial infarction (STEMI)"
+    },
+    {
+      "patient_id": "001_5",
+      "final_diagnosis": "Acute ST-elevation myocardial infarction (STEMI)"
+    }
+  ],
+  [
+    {
+      "patient_id": "002_1",
+      "final_diagnosis": "Musculoskeletal chest pain"
+    },
+    {
+      "patient_id": "002_2",
+      "final_diagnosis": "Musculoskeletal chest pain"
+    },
+    {
+      "patient_id": "002_3",
+      "final_diagnosis": "Musculoskeletal chest pain"
+    },
+    {
+      "patient_id": "002_4",
+      "final_diagnosis": "Musculoskeletal chest pain"
+    },
+    {
+      "patient_id": "002_5",
+      "final_diagnosis": "Musculoskeletal chest pain"
+    }
+  ],
+  [
+    {
+      "patient_id": "003_1",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "003_2",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "003_3",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "003_4",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "003_5",
+      "final_diagnosis": "Acute Bronchitis"
+    }
+  ],
+  [
+    {
+      "patient_id": "004_1",
+      "final_diagnosis": "Acute Exacerbation of COPD"
+    },
+    {
+      "patient_id": "004_2",
+      "final_diagnosis": "Acute Exacerbation of COPD"
+    },
+    {
+      "patient_id": "004_3",
+      "final_diagnosis": "Acute Exacerbation of COPD"
+    },
+    {
+      "patient_id": "004_4",
+      "final_diagnosis": "Acute Exacerbation of COPD"
+    }
+  ],
+  [
+    {
+      "patient_id": "005_1",
+      "final_diagnosis": "Asthma"
+    },
+    {
+      "patient_id": "005_2",
+      "final_diagnosis": "Asthma"
+    },
+    {
+      "patient_id": "005_3",
+      "final_diagnosis": "Asthma"
+    },
+    {
+      "patient_id": "005_4",
+      "final_diagnosis": "Asthma"
+    }
+  ],
+  [
+    {
+      "patient_id": "006_1",
+      "final_diagnosis": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    {
+      "patient_id": "006_2",
+      "final_diagnosis": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    {
+      "patient_id": "006_3",
+      "final_diagnosis": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    {
+      "patient_id": "006_4",
+      "final_diagnosis": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease (COPD)"
+    }
+  ],
+  [
+    {
+      "patient_id": "007_1",
+      "final_diagnosis": "COVID-19"
+    },
+    {
+      "patient_id": "007_2",
+      "final_diagnosis": "COVID-19"
+    },
+    {
+      "patient_id": "007_3",
+      "final_diagnosis": "COVID-19"
+    },
+    {
+      "patient_id": "007_4",
+      "final_diagnosis": "COVID-19"
+    }
+  ],
+  [
+    {
+      "patient_id": "008_1",
+      "final_diagnosis": "COVID-19 Pneumonia"
+    },
+    {
+      "patient_id": "008_2",
+      "final_diagnosis": "COVID-19 Pneumonia"
+    },
+    {
+      "patient_id": "008_3",
+      "final_diagnosis": "COVID-19 Pneumonia"
+    },
+    {
+      "patient_id": "008_4",
+      "final_diagnosis": "COVID-19 Pneumonia"
+    }
+  ],
+  [
+    {
+      "patient_id": "009_1",
+      "final_diagnosis": "Influenza A"
+    },
+    {
+      "patient_id": "009_2",
+      "final_diagnosis": "Influenza A"
+    },
+    {
+      "patient_id": "009_3",
+      "final_diagnosis": "Influenza A"
+    },
+    {
+      "patient_id": "009_4",
+      "final_diagnosis": "Influenza A"
+    }
+  ],
+  [
+    {
+      "patient_id": "010_1",
+      "final_diagnosis": "Influenza A complicated by pneumonia"
+    },
+    {
+      "patient_id": "010_2",
+      "final_diagnosis": "Influenza A complicated by pneumonia"
+    },
+    {
+      "patient_id": "010_3",
+      "final_diagnosis": "Influenza A complicated by pneumonia"
+    },
+    {
+      "patient_id": "010_4",
+      "final_diagnosis": "Influenza A complicated by pneumonia"
+    }
+  ],
+  [
+    {
+      "patient_id": "011_1",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    {
+      "patient_id": "011_2",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    {
+      "patient_id": "011_3",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    {
+      "patient_id": "011_4",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD)"
+    }
+  ],
+  [
+    {
+      "patient_id": "012_1",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation"
+    },
+    {
+      "patient_id": "012_2",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation"
+    },
+    {
+      "patient_id": "012_3",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation"
+    },
+    {
+      "patient_id": "012_4",
+      "final_diagnosis": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation"
+    }
+  ],
+  [
+    {
+      "patient_id": "013_1",
+      "final_diagnosis": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "patient_id": "013_2",
+      "final_diagnosis": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "patient_id": "013_3",
+      "final_diagnosis": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "patient_id": "013_4",
+      "final_diagnosis": "Type 2 Diabetes Mellitus"
+    }
+  ],
+  [
+    {
+      "patient_id": "014_1",
+      "final_diagnosis": "Type 1 Diabetes Mellitus"
+    },
+    {
+      "patient_id": "014_2",
+      "final_diagnosis": "Type 1 Diabetes Mellitus"
+    },
+    {
+      "patient_id": "014_3",
+      "final_diagnosis": "Type 1 Diabetes Mellitus"
+    },
+    {
+      "patient_id": "014_4",
+      "final_diagnosis": "Type 1 Diabetes Mellitus"
+    }
+  ],
+  [
+    {
+      "patient_id": "015_1",
+      "final_diagnosis": "Hypertension"
+    },
+    {
+      "patient_id": "015_2",
+      "final_diagnosis": "Hypertension"
+    },
+    {
+      "patient_id": "015_3",
+      "final_diagnosis": "Hypertension"
+    },
+    {
+      "patient_id": "015_4",
+      "final_diagnosis": "Hypertension"
+    }
+  ],
+  [
+    {
+      "patient_id": "016_1",
+      "final_diagnosis": "Hypertension, Stage 1"
+    },
+    {
+      "patient_id": "016_2",
+      "final_diagnosis": "Hypertension, Stage 1"
+    },
+    {
+      "patient_id": "016_3",
+      "final_diagnosis": "Hypertension, Stage 1"
+    },
+    {
+      "patient_id": "016_4",
+      "final_diagnosis": "Hypertension, Stage 1"
+    }
+  ],
+  [
+    {
+      "patient_id": "017_1",
+      "final_diagnosis": "Hypertensive Emergency"
+    },
+    {
+      "patient_id": "017_2",
+      "final_diagnosis": "Hypertensive Emergency"
+    },
+    {
+      "patient_id": "017_3",
+      "final_diagnosis": "Hypertensive Emergency"
+    },
+    {
+      "patient_id": "017_4",
+      "final_diagnosis": "Hypertensive Emergency"
+    }
+  ],
+  [
+    {
+      "patient_id": "018_1",
+      "final_diagnosis": "Heart Failure with reduced ejection fraction (HFrEF)"
+    },
+    {
+      "patient_id": "018_2",
+      "final_diagnosis": "Heart Failure with reduced ejection fraction (HFrEF)"
+    },
+    {
+      "patient_id": "018_3",
+      "final_diagnosis": "Heart Failure with reduced ejection fraction (HFrEF)"
+    },
+    {
+      "patient_id": "018_4",
+      "final_diagnosis": "Heart Failure with reduced ejection fraction (HFrEF)"
+    }
+  ],
+  [
+    {
+      "patient_id": "019_1",
+      "final_diagnosis": "Acute Decompensated Heart Failure (ADHF)"
+    },
+    {
+      "patient_id": "019_2",
+      "final_diagnosis": "Acute Decompensated Heart Failure (ADHF)"
+    },
+    {
+      "patient_id": "019_3",
+      "final_diagnosis": "Acute Decompensated Heart Failure (ADHF)"
+    },
+    {
+      "patient_id": "019_4",
+      "final_diagnosis": "Acute Decompensated Heart Failure (ADHF)"
+    }
+  ],
+  [
+    {
+      "patient_id": "020_1",
+      "final_diagnosis": "Left-sided ischemic stroke"
+    },
+    {
+      "patient_id": "020_2",
+      "final_diagnosis": "Left-sided ischemic stroke"
+    },
+    {
+      "patient_id": "020_3",
+      "final_diagnosis": "Left-sided ischemic stroke"
+    },
+    {
+      "patient_id": "020_4",
+      "final_diagnosis": "Left-sided ischemic stroke"
+    }
+  ],
+  [
+    {
+      "patient_id": "021_1",
+      "final_diagnosis": "Subarachnoid hemorrhage"
+    },
+    {
+      "patient_id": "021_2",
+      "final_diagnosis": "Subarachnoid hemorrhage"
+    },
+    {
+      "patient_id": "021_3",
+      "final_diagnosis": "Subarachnoid hemorrhage"
+    },
+    {
+      "patient_id": "021_4",
+      "final_diagnosis": "Subarachnoid hemorrhage"
+    }
+  ],
+  [
+    {
+      "patient_id": "022_1",
+      "final_diagnosis": "Transient Ischemic Attack (TIA)"
+    },
+    {
+      "patient_id": "022_2",
+      "final_diagnosis": "Transient Ischemic Attack (TIA)"
+    },
+    {
+      "patient_id": "022_3",
+      "final_diagnosis": "Transient Ischemic Attack (TIA)"
+    },
+    {
+      "patient_id": "022_4",
+      "final_diagnosis": "Transient Ischemic Attack (TIA)"
+    }
+  ],
+  [
+    {
+      "patient_id": "023_1",
+      "final_diagnosis": "Duodenal ulcer"
+    },
+    {
+      "patient_id": "023_2",
+      "final_diagnosis": "Duodenal ulcer"
+    },
+    {
+      "patient_id": "023_3",
+      "final_diagnosis": "Duodenal ulcer"
+    },
+    {
+      "patient_id": "023_4",
+      "final_diagnosis": "Duodenal ulcer"
+    }
+  ],
+  [
+    {
+      "patient_id": "024_1",
+      "final_diagnosis": "Gastric Ulcer"
+    },
+    {
+      "patient_id": "024_2",
+      "final_diagnosis": "Gastric Ulcer"
+    },
+    {
+      "patient_id": "024_3",
+      "final_diagnosis": "Gastric Ulcer"
+    },
+    {
+      "patient_id": "024_4",
+      "final_diagnosis": "Gastric Ulcer"
+    }
+  ],
+  [
+    {
+      "patient_id": "025_1",
+      "final_diagnosis": "Viral Upper Respiratory Infection (Common Cold)"
+    },
+    {
+      "patient_id": "025_2",
+      "final_diagnosis": "Viral Upper Respiratory Infection (Common Cold)"
+    },
+    {
+      "patient_id": "025_3",
+      "final_diagnosis": "Viral Upper Respiratory Infection (Common Cold)"
+    },
+    {
+      "patient_id": "025_4",
+      "final_diagnosis": "Viral Upper Respiratory Infection (Common Cold)"
+    }
+  ],
+  [
+    {
+      "patient_id": "026_1",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "026_2",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "026_3",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "026_4",
+      "final_diagnosis": "Acute Bronchitis"
+    }
+  ],
+  [
+    {
+      "patient_id": "027_1",
+      "final_diagnosis": "Uncomplicated Urinary Tract Infection (UTI)"
+    },
+    {
+      "patient_id": "027_2",
+      "final_diagnosis": "Uncomplicated Urinary Tract Infection (UTI)"
+    },
+    {
+      "patient_id": "027_3",
+      "final_diagnosis": "Uncomplicated Urinary Tract Infection (UTI)"
+    },
+    {
+      "patient_id": "027_4",
+      "final_diagnosis": "Uncomplicated Urinary Tract Infection (UTI)"
+    }
+  ],
+  [
+    {
+      "patient_id": "028_1",
+      "final_diagnosis": "Acute bacterial prostatitis"
+    },
+    {
+      "patient_id": "028_2",
+      "final_diagnosis": "Acute bacterial prostatitis"
+    },
+    {
+      "patient_id": "028_3",
+      "final_diagnosis": "Acute bacterial prostatitis"
+    },
+    {
+      "patient_id": "028_4",
+      "final_diagnosis": "Acute bacterial prostatitis"
+    }
+  ],
+  [
+    {
+      "patient_id": "029_1",
+      "final_diagnosis": "Lumbar muscle strain/spasm"
+    },
+    {
+      "patient_id": "029_2",
+      "final_diagnosis": "Lumbar muscle strain/spasm"
+    },
+    {
+      "patient_id": "029_3",
+      "final_diagnosis": "Lumbar muscle strain/spasm"
+    },
+    {
+      "patient_id": "029_4",
+      "final_diagnosis": "Lumbar muscle strain/spasm"
+    }
+  ],
+  [
+    {
+      "patient_id": "030_1",
+      "final_diagnosis": "Degenerative disc disease with facet joint arthritis"
+    },
+    {
+      "patient_id": "030_2",
+      "final_diagnosis": "Degenerative disc disease with facet joint arthritis"
+    },
+    {
+      "patient_id": "030_3",
+      "final_diagnosis": "Degenerative disc disease with facet joint arthritis"
+    },
+    {
+      "patient_id": "030_4",
+      "final_diagnosis": "Degenerative disc disease with facet joint arthritis"
+    }
+  ],
+  [
+    {
+      "patient_id": "031_1",
+      "final_diagnosis": "Migraine with aura"
+    },
+    {
+      "patient_id": "031_2",
+      "final_diagnosis": "Migraine with aura"
+    },
+    {
+      "patient_id": "031_3",
+      "final_diagnosis": "Migraine with aura"
+    },
+    {
+      "patient_id": "031_4",
+      "final_diagnosis": "Migraine with aura"
+    }
+  ],
+  [
+    {
+      "patient_id": "032_1",
+      "final_diagnosis": "Migraine"
+    },
+    {
+      "patient_id": "032_2",
+      "final_diagnosis": "Migraine"
+    },
+    {
+      "patient_id": "032_3",
+      "final_diagnosis": "Migraine"
+    },
+    {
+      "patient_id": "032_4",
+      "final_diagnosis": "Migraine"
+    }
+  ],
+  [
+    {
+      "patient_id": "033_1",
+      "final_diagnosis": "Functional Constipation"
+    },
+    {
+      "patient_id": "033_2",
+      "final_diagnosis": "Functional Constipation"
+    },
+    {
+      "patient_id": "033_3",
+      "final_diagnosis": "Functional Constipation"
+    },
+    {
+      "patient_id": "033_4",
+      "final_diagnosis": "Functional Constipation"
+    }
+  ],
+  [
+    {
+      "patient_id": "034_1",
+      "final_diagnosis": "Functional Constipation"
+    },
+    {
+      "patient_id": "034_2",
+      "final_diagnosis": "Functional Constipation"
+    },
+    {
+      "patient_id": "034_3",
+      "final_diagnosis": "Functional Constipation"
+    },
+    {
+      "patient_id": "034_4",
+      "final_diagnosis": "Functional Constipation"
+    }
+  ],
+  [
+    {
+      "patient_id": "035_1",
+      "final_diagnosis": "Hypothyroidism, inadequately treated"
+    },
+    {
+      "patient_id": "035_2",
+      "final_diagnosis": "Hypothyroidism, inadequately treated"
+    },
+    {
+      "patient_id": "035_3",
+      "final_diagnosis": "Hypothyroidism, inadequately treated"
+    },
+    {
+      "patient_id": "035_4",
+      "final_diagnosis": "Hypothyroidism, inadequately treated"
+    }
+  ],
+  [
+    {
+      "patient_id": "036_1",
+      "final_diagnosis": "Generalized Anxiety Disorder (GAD)"
+    },
+    {
+      "patient_id": "036_2",
+      "final_diagnosis": "Generalized Anxiety Disorder (GAD)"
+    },
+    {
+      "patient_id": "036_3",
+      "final_diagnosis": "Generalized Anxiety Disorder (GAD)"
+    },
+    {
+      "patient_id": "036_4",
+      "final_diagnosis": "Generalized Anxiety Disorder (GAD)"
+    }
+  ],
+  [
+    {
+      "patient_id": "037_1",
+      "final_diagnosis": "Possible early osteoarthritis or meniscal tear of the right knee"
+    },
+    {
+      "patient_id": "037_2",
+      "final_diagnosis": "Possible early osteoarthritis or meniscal tear of the right knee"
+    },
+    {
+      "patient_id": "037_3",
+      "final_diagnosis": "Possible early osteoarthritis or meniscal tear of the right knee"
+    },
+    {
+      "patient_id": "037_4",
+      "final_diagnosis": "Possible early osteoarthritis or meniscal tear of the right knee"
+    }
+  ],
+  [
+    {
+      "patient_id": "038_1",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    },
+    {
+      "patient_id": "038_2",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    },
+    {
+      "patient_id": "038_3",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    },
+    {
+      "patient_id": "038_4",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    }
+  ],
+  [
+    {
+      "patient_id": "038_1",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    },
+    {
+      "patient_id": "038_2",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    },
+    {
+      "patient_id": "038_3",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    },
+    {
+      "patient_id": "038_4",
+      "final_diagnosis": "Diabetic peripheral neuropathy"
+    }
+  ],
+  [
+    {
+      "patient_id": "039_1",
+      "final_diagnosis": "Appendicitis"
+    },
+    {
+      "patient_id": "039_2",
+      "final_diagnosis": "Appendicitis"
+    },
+    {
+      "patient_id": "039_3",
+      "final_diagnosis": "Appendicitis"
+    },
+    {
+      "patient_id": "039_4",
+      "final_diagnosis": "Appendicitis"
+    }
+  ],
+  [
+    {
+      "patient_id": "040_1",
+      "final_diagnosis": "Angina pectoris (stable)"
+    },
+    {
+      "patient_id": "040_2",
+      "final_diagnosis": "Angina pectoris (stable)"
+    },
+    {
+      "patient_id": "040_3",
+      "final_diagnosis": "Angina pectoris (stable)"
+    },
+    {
+      "patient_id": "040_4",
+      "final_diagnosis": "Angina pectoris (stable)"
+    }
+  ],
+  [
+    {
+      "patient_id": "041_1",
+      "final_diagnosis": "Right hip osteoarthritis"
+    },
+    {
+      "patient_id": "041_2",
+      "final_diagnosis": "Right hip osteoarthritis"
+    },
+    {
+      "patient_id": "041_3",
+      "final_diagnosis": "Right hip osteoarthritis"
+    },
+    {
+      "patient_id": "041_4",
+      "final_diagnosis": "Right hip osteoarthritis"
+    }
+  ],
+  [
+    {
+      "patient_id": "042_1",
+      "final_diagnosis": "Strep throat"
+    },
+    {
+      "patient_id": "042_2",
+      "final_diagnosis": "Strep throat"
+    },
+    {
+      "patient_id": "042_3",
+      "final_diagnosis": "Strep throat"
+    },
+    {
+      "patient_id": "042_4",
+      "final_diagnosis": "Strep throat"
+    }
+  ],
+  [
+    {
+      "patient_id": "043_1",
+      "final_diagnosis": "Acute Gastroenteritis"
+    },
+    {
+      "patient_id": "043_2",
+      "final_diagnosis": "Acute Gastroenteritis"
+    },
+    {
+      "patient_id": "043_3",
+      "final_diagnosis": "Acute Gastroenteritis"
+    },
+    {
+      "patient_id": "043_4",
+      "final_diagnosis": "Acute Gastroenteritis"
+    }
+  ],
+  [
+    {
+      "patient_id": "044_1",
+      "final_diagnosis": "Acute myocardial infarction (STEMI)"
+    },
+    {
+      "patient_id": "044_2",
+      "final_diagnosis": "Acute myocardial infarction (STEMI)"
+    },
+    {
+      "patient_id": "044_3",
+      "final_diagnosis": "Acute myocardial infarction (STEMI)"
+    },
+    {
+      "patient_id": "044_4",
+      "final_diagnosis": "Acute myocardial infarction (STEMI)"
+    }
+  ],
+  [
+    {
+      "patient_id": "045_1",
+      "final_diagnosis": "Migraine"
+    },
+    {
+      "patient_id": "045_2",
+      "final_diagnosis": "Migraine"
+    },
+    {
+      "patient_id": "045_3",
+      "final_diagnosis": "Migraine"
+    },
+    {
+      "patient_id": "045_4",
+      "final_diagnosis": "Migraine"
+    }
+  ],
+  [
+    {
+      "patient_id": "046_1",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "046_2",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "046_3",
+      "final_diagnosis": "Acute Bronchitis"
+    },
+    {
+      "patient_id": "046_4",
+      "final_diagnosis": "Acute Bronchitis"
+    }
+  ],
+  [
+    {
+      "patient_id": "047_1",
+      "final_diagnosis": "Distal radius fracture"
+    },
+    {
+      "patient_id": "047_2",
+      "final_diagnosis": "Distal radius fracture"
+    },
+    {
+      "patient_id": "047_3",
+      "final_diagnosis": "Distal radius fracture"
+    },
+    {
+      "patient_id": "047_4",
+      "final_diagnosis": "Distal radius fracture"
+    }
+  ],
+  [
+    {
+      "patient_id": "048_1",
+      "final_diagnosis": "Viral exanthem"
+    },
+    {
+      "patient_id": "048_2",
+      "final_diagnosis": "Viral exanthem"
+    },
+    {
+      "patient_id": "048_3",
+      "final_diagnosis": "Viral exanthem"
+    },
+    {
+      "patient_id": "048_4",
+      "final_diagnosis": "Viral exanthem"
+    }
+  ],
+  [
+    {
+      "patient_id": "049_1",
+      "final_diagnosis": "Acute otitis media (right ear)"
+    },
+    {
+      "patient_id": "049_2",
+      "final_diagnosis": "Acute otitis media (right ear)"
+    },
+    {
+      "patient_id": "049_3",
+      "final_diagnosis": "Acute otitis media (right ear)"
+    },
+    {
+      "patient_id": "049_4",
+      "final_diagnosis": "Acute otitis media (right ear)"
+    }
+  ],
+  [
+    {
+      "patient_id": "050_1",
+      "final_diagnosis": "Asthma"
+    },
+    {
+      "patient_id": "050_2",
+      "final_diagnosis": "Asthma"
+    },
+    {
+      "patient_id": "050_3",
+      "final_diagnosis": "Asthma"
+    },
+    {
+      "patient_id": "050_4",
+      "final_diagnosis": "Asthma"
+    }
+  ],
+  [
+    {
+      "patient_id": "051_1",
+      "final_diagnosis": "Rheumatoid Arthritis"
+    },
+    {
+      "patient_id": "051_2",
+      "final_diagnosis": "Rheumatoid Arthritis"
+    },
+    {
+      "patient_id": "051_3",
+      "final_diagnosis": "Rheumatoid Arthritis"
+    },
+    {
+      "patient_id": "051_4",
+      "final_diagnosis": "Rheumatoid Arthritis"
+    }
+  ],
+  [
+    {
+      "patient_id": "052_1",
+      "final_diagnosis": "Diverticulitis"
+    },
+    {
+      "patient_id": "052_2",
+      "final_diagnosis": "Diverticulitis"
+    },
+    {
+      "patient_id": "052_3",
+      "final_diagnosis": "Diverticulitis"
+    },
+    {
+      "patient_id": "052_4",
+      "final_diagnosis": "Diverticulitis"
+    }
+  ]
+]

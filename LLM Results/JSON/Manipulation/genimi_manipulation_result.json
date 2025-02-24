@@ -1,0 +1,52 @@
+[
+  {
+    "patient_id": "001_3",
+    "before_alter_final_diagnosis": "Acute ST-elevation myocardial infarction (STEMI)",
+    "after_alter_final_diagnosis": "Angina pectoris"
+  },
+  {
+    "patient_id": "004_1",
+    "before_alter_final_diagnosis": "Acute Exacerbation of COPD",
+    "after_alter_final_diagnosis": "Heart Failure Exacerbation"
+  },
+  {
+    "patient_id": "007_1",
+    "before_alter_final_diagnosis": "COVID-19",
+    "after_alter_final_diagnosis": "COVID-19"
+  },
+  {
+    "patient_id": "020_4",
+    "before_alter_final_diagnosis": "Left-sided ischemic stroke",
+    "after_alter_final_diagnosis": "Left-sided ischemic stroke"
+  },
+  {
+    "patient_id": "028_3",
+    "before_alter_final_diagnosis": "Acute bacterial prostatitis",
+    "after_alter_final_diagnosis": "Urinary Tract Infection (UTI) with associated Benign Prostatic Hyperplasia (BPH)"
+  },
+  {
+    "patient_id": "024_1",
+    "before_alter_final_diagnosis": "Gastric Ulcer",
+    "after_alter_final_diagnosis": "Gastric Ulcer"
+  },
+  {
+    "patient_id": "034_2",
+    "before_alter_final_diagnosis": "Functional Constipation",
+    "after_alter_final_diagnosis": "Irritable Bowel Syndrome (IBS) with Constipation (IBS-C)"
+  },
+  {
+    "patient_id": "039_3",
+    "before_alter_final_diagnosis": "Appendicitis",
+    "after_alter_final_diagnosis": "Acute Appendicitis"
+  },
+  {
+    "patient_id": "002_1",
+    "before_alter_final_diagnosis": "Musculoskeletal chest pain",
+    "after_alter_final_diagnosis": "Musculoskeletal chest wall pain"
+  },
+  {
+    "patient_id": "035_3",
+    "before_alter_final_diagnosis": "Hypothyroidism",
+    "after_alter_final_diagnosis": "Hypothyroidism"
+  }
+]
