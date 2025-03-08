@@ -6,70 +6,10 @@ This repository contains the datasets generated and analyzed for the research pa
 ## Repository Contents
 
 The repository is organized into two main directories: `Clinical Scenario Datasets` and `LLM Results`.
+
 ```
 
-├── Clinical Scenario Datasets
-
-│ ├── Data
-
-│ │ ├── 52_baseline_clinical_scenario.json
-
-│ │ ├── dataset_for_consistency.json
-
-│ │ ├── dataset_for_contextual_awareness.json
-
-│ │ └── dataset_for_manipulation.json
-
-│ └── raw
-
-│ │ └── disease.json
-
-├── LLM Results
-
-│ ├── CSV
-
-│ │ ├── Consistency
-
-│ │ │ └── combined_consistency.csv
-
-│ │ ├── Contextual
-
-│ │ │ ├── qualitative_contextual_results.csv
-
-│ │ │ └── quantitative_contextual_results.csv
-
-│ │ └── Manipulation
-
-│ │ │ └── clinically_validated_diagnoses.csv
-
-│ └── JSON
-
-│ │ ├── Consistency
-
-│ │ │ ├── Gemini_consistency_result.json
-
-│ │ │ ├── OpenAI_consistency_result.json
-
-│ │ │ └── raw
-
-│ │ │ ├── Gemini_consis.json
-
-│ │ │ └── OpenAI_consis.json
-
-│ │ ├── Context
-
-│ │ │ ├── gemini_contextual_result.json
-
-│ │ │ └── openai_contextual_result.json
-
-│ │ └── Manipulation
-
-│ │ │ ├── gemini_manipulation_result.json
-
-│ │ │ └── openai_manipulation_result.json
-
-└── README.md
-
+├── Clinical Scenario Datasets │ ├── Data │ │ ├── 52_baseline_clinical_scenario.json │ │ ├── dataset_for_consistency.json │ │ ├── dataset_for_contextual_awareness.json │ │ └── dataset_for_manipulation.json │ └── raw │ └── disease.json ├── LLM Results │ ├── CSV │ │ ├── Consistency │ │ │ └── combined_consistency.csv │ │ ├── Contextual │ │ │ ├── qualitative_contextual_results.csv │ │ │ └── quantitative_contextual_results.csv │ │ └── Manipulation │ │ └── clinically_validated_diagnoses.csv │ └── JSON │ ├── Consistency │ │ ├── Gemini_consistency_result.json │ │ ├── OpenAI_consistency_result.json │ │ └── raw │ │ ├── Gemini_consis.json │ │ └── OpenAI_consis.json │ ├── Context │ │ ├── gemini_contextual_result.json │ │ └── openai_contextual_result.json │ └── Manipulation │ ├── gemini_manipulation_result.json │ └── openai_manipulation_result.json └── README.md
 ```
 
 
